@@ -14,7 +14,7 @@ purpose:            Determine a machine epsilon for the computers I would like
 '''
 
 def calculate_double_float_precision():
-    y = 0.5
+    y = 1.0
     x = 1.0
     z = x + y
 

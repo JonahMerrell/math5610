@@ -15,7 +15,7 @@ purpose:            Determine a machine epsilon for the computers I would like
 import numpy as np
 
 def calculate_single_float_precision():
-    y = np.float32(0.5)
+    y = np.float32(1.0)
     x = np.float32(1.0)
     z = x + y
     error = abs(z - x)
