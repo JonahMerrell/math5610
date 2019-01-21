@@ -7,6 +7,7 @@
 ### [Task2](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task2)<br>
 - Task2.md
 ### [Task3](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task3)<br>
+- Task3.md
 ### [Task4](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task4)<br>
 - Task4.md
 ### [Task5](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task5)<br>
