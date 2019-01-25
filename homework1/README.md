@@ -1,8 +1,8 @@
 ### Task1<br>
-- [dmaceps.py](Task1/dmaceps.py)<br>
-- [smaceps.py](Task1/smaceps.py)<br>
+- [dmaceps.py](Task1/dmaceps.py)
+- [smaceps.py](Task1/smaceps.py)
 ### Task2<br>
-- [Task2.md](Task2/Task2.md)<br>
+- [Task2.md](Task2/Task2.md)
 ### [Task3](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task3)<br>
 - Task3.md
 ### [Task4](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task4)<br>
