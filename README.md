@@ -1,7 +1,7 @@
 # math5610 Table of Contents
 
 ## [Homework1<br>](homework1)
-### [Task1](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task1)<br>
+### [Task1](homework1/Task1)<br>
 - dmaceps.py<br>
 - smaceps.py<br>
 ### [Task2](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task2)<br>
