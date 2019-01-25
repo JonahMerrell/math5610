@@ -1,10 +1,8 @@
-### [Task1](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task1)<br>
-### [Task1 Test](homework1/Task1)<br>
-- dmaceps.py<br>
-- smaceps.py<br>
-### [Task2](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task2)<br>
-### [Task2](homework1/Task2)<br>
-- Task2.md
+### Task1<br>
+- [dmaceps.py](homework1/Task1/dmaceps.py)<br>
+- [smaceps.py](homework1/Task1/smaceps.py)<br>
+### Task2<br>
+- [Task2.md](homework1/Task2/Task2.md)<br>
 ### [Task3](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task3)<br>
 - Task3.md
 ### [Task4](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task4)<br>
