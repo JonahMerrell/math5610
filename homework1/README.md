@@ -1,15 +1,17 @@
-### Task1
+# Homework1
+
+## Task1
 - [dmaceps.py](Task1/dmaceps.py)
 - [smaceps.py](Task1/smaceps.py)
-### Task2
+## Task2
 - [Task2.md](Task2/Task2.md)
-### Task3
+## Task3
 - [Task3.md](Task3/Task3.md)
-### Task4
+## Task4
 - [Task4.md](Task4/Task4.md)
-### Task5
+## Task5
 - [Task5.md](Task5/Task5.md)
-### Task6
+## Task6
 - [dmaceps.f](Task6/dmaceps.f)
 - [dmaceps.o](Task6/dmaceps.o)
 - [mylib](Task6/mylib)
