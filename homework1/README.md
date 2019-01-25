@@ -20,13 +20,15 @@
 - [smaceps.o](Task6/smaceps.o)
 - [test.exe](Task6/test.exe)
 - [test.f](Task6/test.f)
-### [Task7](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task7)<br>
-- Answer.pdf<br>
-- hello.exe<br>
-- hello.f<br>
-### [Task8](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task8)<br>
-- Task8_paragraphs.pdf
-### [Task9](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task9)<br>
-- random_matrix.py
-### [Task10](https://github.com/JonahMerrell/math5610/tree/master/homework1/Task10)<br>
-- Linear_Algebra_Packages.pdf
+## Task7
+- [Answer.pdf](Task7/Answer.pdf)
+- [hello.exe](Task7/hello.exe)
+- [hello.f](Task7/hello.f)
+### Task8
+- [Task8_paragraphs.pdf](Task8/Answer.pdf)
+### Task9
+- [random_matrix.py](Task9/random_matrix.py)
+### Task10
+- [Linear_Algebra_Packages.pdf](Task10/Linear_Algebra_Packages.pdf)
+
+## [Back](../)
