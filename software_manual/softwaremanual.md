@@ -11,3 +11,5 @@
 - [vector_2norm](vector_2norm/vector_2norm.md)
 - [vector_1norm](vector_1norm/vector_1norm.md)
 - [vector_infnorm](vector_infnorm/vector_infnorm.md)
+- [gen_sym_matrix](gen_sym_matrix/gen_sym_matrix.md)
+

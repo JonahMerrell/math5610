@@ -31,7 +31,8 @@ The above number printed is the 2-norm of the given vector.
 
 **Implementation/Code:** The following is the code for smaceps()
 
-
+      import math
+      
       def vector_2norm(vector):
           sum = 0.0
           for i in range(len(vector)):
