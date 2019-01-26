@@ -1,9 +1,7 @@
 Homework1<br>
    This is a test<br>
-#Test
-- test
 
-###Task1
+### Task1
 - [dmaceps.py](Task1/dmaceps.py)
 - [smaceps.py](Task1/smaceps.py)
 
