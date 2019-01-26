@@ -1,4 +1,4 @@
-# Software Manuel
+# Software Manual
 
 ## [Back](../)
 
