@@ -27,10 +27,11 @@ def calculate_single_float_precision():
         error = abs(z - x)
         iteration_count += 1
 
-    print("machine single float mantissa = " + str(iteration_count))
-    print("machine single float precision = " + str(y))
+    return [iteration_count, y]
 
 
-calculate_single_float_precision()
-
+#The code below is used just for testing.
+#smaceps_data = calculate_single_float_precision()
+#print("machine double float mantissa = " + str(smaceps_data[0]))
+#print("machine double float precision = " + str(smaceps_data[1]))
 

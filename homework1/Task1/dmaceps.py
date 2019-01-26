@@ -9,8 +9,8 @@ course:             Math 5610
 purpose:            Determine a machine epsilon for the computers I would like
                     work on computationally. The code contains 2 subroutines.
 
-                     smacsps - returns the single precision value for machine precision
-                     dmacsps - returns the double precision value for machine precision
+                     smaceps - returns the single precision value for machine precision
+                     dmaceps - returns the double precision value for machine precision
 '''
 
 def calculate_double_float_precision():
@@ -27,10 +27,16 @@ def calculate_double_float_precision():
         error = abs(z - x)
         iteration_count += 1
 
-    print("machine double float mantissa = " + str(iteration_count))
-    print("machine double float precision = " + str(y))
+    return [iteration_count,y]
 
 
 
-calculate_double_float_precision()
+
+#The code below is used just for testing.
+#dmaceps_data = calculate_double_float_precision()
+#print("machine double float mantissa = " + str(dmaceps_data[0]))
+#print("machine double float precision = " + str(dmaceps_data[1]))
+
+
+
 
