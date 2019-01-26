@@ -1,12 +1,16 @@
-# Homework1
+Homework1
    This is a test
-### 	Task1
+
+###Task1
 - [dmaceps.py](Task1/dmaceps.py)
 - [smaceps.py](Task1/smaceps.py)
+
 ### Task2
 - [Task2.md](Task2/Task2.md)
+
 ### Task3
 - [Task3.md](Task3/Task3.md)
+
 ### Task4
 - [Task4.md](Task4/Task4.md)
 ### Task5
