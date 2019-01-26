@@ -1,6 +1,6 @@
-# Math 4610 Fundamentals of Computational Mathematics Software Manual
+# Software Manual
 
-## [Back](../)
+## [Back](../softwaremanual)
 
 **Routine Name:**           dmaceps.py
 
