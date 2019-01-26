@@ -1,6 +1,6 @@
 # Homework1<br>
 
-## [Back](../../)
+## [Back](../)
 
 ### Task1
 

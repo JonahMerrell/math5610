@@ -4,4 +4,4 @@
 
 
 ## [Homework1](homework1/homework1_solutions)
-## [Homework2](homework2)
+## [Homework2](homework2/homework2_solutions)
