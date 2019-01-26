@@ -8,17 +8,17 @@ course:             Math 5610
 
 purpose:            Calculate the 2-norm of a vector
 '''
-import numpy as np
+import math
 
-def norm_2_vector(vector):
-    sum = np.float64(0.0)
-    for i in range(len(vector[0])):
-        sum += (vector[0,i])*(vector[0,i])
-    norm_2 = np.power(sum,0.5)
+def vector_2norm(vector):
+    sum = 0.0
+    for i in range(len(vector)):
+        sum += (vector[i])*(vector[i])
+    norm_2 = math.pow(sum,0.5)
 
     return norm_2
 
 #The code below is used just for testing.
-#vector = np.array([[5,7,9,2,5]] , dtype=float)
-#print(norm_2_vector(vector))
+#vector = [5,7,9,2,5]
+#print(vector_2norm(vector))
 
