@@ -2,8 +2,12 @@
 
 ## [Back](../)
 
-- [smaceps.py](smaceps/smaceps.md)
-- [dmaceps.py](dmaceps/dmaceps.md)
-- [abs_error.py](abs_error/abs_error.md)
-- [rel_error.py](rel_error/rel_error.md)
-- [vector_add.py](vector_add/vector_add.md)
+- [smaceps](smaceps/smaceps.md)
+- [dmaceps](dmaceps/dmaceps.md)
+- [abs_error](abs_error/abs_error.md)
+- [rel_error](rel_error/rel_error.md)
+- [vector_add](vector_add/vector_add.md)
+- [vector_scal_mult](vector_scal_mult/vector_scal_mult.md)
+- [vector_2norm](vector_2norm/vector_2norm.md)
+- [vector_1norm](vector_1norm/vector_1norm.md)
+- [vector_infnorm](vector_infnorm/vector_infnorm.md)

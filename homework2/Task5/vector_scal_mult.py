@@ -17,6 +17,6 @@ def vector_scal_mult(scalar,vector):
     return vector
 
 #The code below is used just for testing.
-#vector = [5,7,9,2,5]
-#print(vector_scal_mult(5,vector))
+vector = [5,7,9,2,5]
+print(vector_scal_mult(5,vector))
 

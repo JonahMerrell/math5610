@@ -14,7 +14,7 @@
 **Input:** argument1: The true value
 		   argument2: The approximation to the true value
 
-**Output:** This routine returns a the relative error of the approximation given.
+**Output:** This routine returns a the relative error of the approximation given (as a float).
 
 **Usage/Example:**
 

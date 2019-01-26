@@ -10,11 +10,11 @@ purpose:            Calculate the infinity-norm of a vector
 '''
 
 def vector_infnorm(vector):
-    norm_inf = max(vector)
+    norm_inf = float(max(vector))
 
     return norm_inf
 
 #The code below is used just for testing.
-#vector = [5,7,9,2,5]
-#print(vector_infnorm(vector))
+vector = [5,7,9,2,5]
+print(vector_infnorm(vector))
 

@@ -17,6 +17,6 @@ def vector_1norm(vector):
     return sum
 
 #The code below is used just for testing.
-#vector = [5,7,9,2,5]
-#print(vector_1norm(vector))
+vector = [5,7,9,2,5]
+print(vector_1norm(vector))
 
