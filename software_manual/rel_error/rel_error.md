@@ -1,4 +1,4 @@
-# Software Manual (abs_error.py)
+# Software Manual (rel_error.py)
 
 ## [Back](../softwaremanual)
 
