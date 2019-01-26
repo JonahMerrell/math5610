@@ -3,5 +3,5 @@
 [Software Manuel](software_manual/softwareManual)
 
 
-## [Homework1](Homework1)
-## [Homework2](Homework2)
+## [Homework1](homework1)
+## [Homework2](homework2)
