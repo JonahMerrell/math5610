@@ -1,8 +1,16 @@
 # Homework1<br>
 
 ### Task1
-- [dmaceps.py](Task1/dmaceps.py)
+During this task, we were asked to create two routines. One routine would measure the machine
+precision of single precision arithmetic, and the other routine would measure the machine
+precision of double precision arithmetic.
+
+The software manual entry for the first routine, called smaceps(), is located [here](../../software_manual/smaceps/smaceps.md).
+The software manual entry for the second routine, called dmaceps(), is located [here](../../software_manual/dmaceps/dmaceps.md).
+
+
 - [smaceps.py](Task1/smaceps.py)
+- [dmaceps.py](Task1/dmaceps.py)
 
 ### Task2
 - [Task2.md](Task2/Task2.md)
