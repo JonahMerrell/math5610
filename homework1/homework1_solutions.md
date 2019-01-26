@@ -1,4 +1,4 @@
-Homework1<br>
+# Homework1<br>
    This is a test<br>
 
 ### Task1
@@ -13,8 +13,10 @@ Homework1<br>
 
 ### Task4
 - [Task4.md](Task4/Task4.md)
+
 ### Task5
 - [Task5.md](Task5/Task5.md)
+
 ### Task6
 - [dmaceps.f](Task6/dmaceps.f)
 - [dmaceps.o](Task6/dmaceps.o)
@@ -24,14 +26,18 @@ Homework1<br>
 - [smaceps.o](Task6/smaceps.o)
 - [test.exe](Task6/test.exe)
 - [test.f](Task6/test.f)
+
 ### Task7
 - [Answer.pdf](Task7/Answer.pdf)
 - [hello.exe](Task7/hello.exe)
 - [hello.f](Task7/hello.f)
+
 ### Task8
 - [Task8_paragraphs.pdf](Task8/Answer.pdf)
+
 ### Task9
 - [random_matrix.py](Task9/random_matrix.py)
+
 ### Task10
 - [Linear_Algebra_Packages.pdf](Task10/Linear_Algebra_Packages.pdf)
 
