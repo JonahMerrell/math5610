@@ -20,7 +20,7 @@ def vector_add(vector1,vector2):
 
 
 #The code below is used just for testing.
-#vector1 = [5,7,9,2,5]
-#vector2 = [8,2,3,6,9]
-#print(vector_add(vector1,vector2))
+vector1 = [5,7,9,2,5]
+vector2 = [8,2,3,6,9]
+print(vector_add(vector1,vector2))
 
