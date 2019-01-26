@@ -1,6 +1,6 @@
 # Homework1<br>
 
-## [Back](math5610)
+## [Back](../math5610)
 
 ### Task1
 During this task, we were asked to create two routines. One routine would measure the machine
