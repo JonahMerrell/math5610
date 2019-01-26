@@ -3,21 +3,18 @@
 ## [Back](../../)
 
 ### Task1
-During this task, we were asked to create two routines. One routine would measure the machine
-precision of single precision arithmetic, and the other routine would measure the machine
-precision of double precision arithmetic.
 
-The software manual entry for the first routine, called smaceps(), is located [here](../software_manual/smaceps/smaceps.md).<br>
-The software manual entry for the second routine, called dmaceps(), is located [here](../software_manual/smaceps/smaceps.html/software_manual/dmaceps/dmaceps.md).
-
-- [smaceps.py](Task1/smaceps.py)
-- [dmaceps.py](Task1/dmaceps.py)
+- [Task1.md](Task1/Task1.md)
 
 ### Task2
-- [Task2.md](Task2/Task2.md)
+During this task, we were asked to create a routine that calculates the absolute error of a numerical approximation.
+
+The software manual entry for this routine, called abs_error(), is located [here](../software_manual/abs_error/abs_error.md).<br>
 
 ### Task3
-- [Task3.md](Task3/Task3.md)
+During this task, we were asked to create a routine that calculates the relative error of a numerical approximation.
+
+The software manual entry for this routine, called rel_error(), is located [here](../software_manual/rel_error/rel_error.md).<br>
 
 ### Task4
 - [Task4.md](Task4/Task4.md)

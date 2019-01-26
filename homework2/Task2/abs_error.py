@@ -14,5 +14,5 @@ def calc_abs_error(true_value,appr_value):
     return abs_error
 
 #The code below is used just for testing.
-#print(calc_abs_error(1.0,1.00001))
+#print(calc_abs_error(1.0,1.0000132))
 

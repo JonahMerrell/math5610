@@ -14,5 +14,5 @@ def calc_rel_error(true_value,appr_value):
     return rel_error
 
 #The code below is used just for testing.
-#print(calc_rel_error(1.0,1.00001))
+print(calc_rel_error(1.0,1.0000132))
 
