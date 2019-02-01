@@ -34,12 +34,6 @@ precision of double precision arithmetic.
   - [single precision](../software_manual/smaceps/smaceps.md)
   - [double precision](../software_manual/dmaceps/dmaceps.md)
 
-The software manual entry for the first routine, called smaceps(), is located [here](../software_manual/smaceps/smaceps.md).<br>
-The software manual entry for the second routine, called dmaceps(), is located [here](../software_manual/dmaceps/dmaceps.md).
-
-- [smaceps.py](Task1/smaceps.py)
-- [dmaceps.py](Task1/dmaceps.py)
-
 ### Task 2
 For this task, we were asked to create a repository at Github.com with the name username/math5610.
 In my case, he link to the repsitory that I made onlin
