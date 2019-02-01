@@ -12,4 +12,4 @@
 - [vector_1norm](vector_1norm/vector_1norm.md)
 - [vector_infnorm](vector_infnorm/vector_infnorm.md)
 - [gen_sym_matrix](gen_sym_matrix/gen_sym_matrix.md)
-
+- [gen_rand_matrix](gen_rand_matrix/gen_rand_matrix.md)
