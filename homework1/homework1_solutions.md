@@ -14,7 +14,7 @@
 - [x] [Task 10](#task-10)
 
 ### Task 1
-During this task, we were asked to create two routines. One routine would measure the machine
+For this task, we were asked to create two routines. One routine would measure the machine
 precision of single precision arithmetic, and the other routine would measure the machine
 precision of double precision arithmetic.
 
@@ -26,16 +26,19 @@ precision of double precision arithmetic.
   - [double precision](../software_manual/dmaceps/dmaceps.md)
 
 ### Task 2
-For this task, we were asked to create a repository at Github.com with the name username/math5610.
-In my case, he link to the repsitory that I made onlin
+For this task, we were asked to create a repository at github.com with the name username/math5610.
 
-- [Task2.md](Task2/Task2.md)
+- My github Repository: [https://github.com/JonahMerrell/math5610](https://github.com/JonahMerrell/math5610)
 
 ### Task 3
-- [Task3.md](Task3/Task3.md)
+For this task, we were asked to create a repository at github pages.
+
+- My github pages website: [https://jonahmerrell.github.io/math5610](https://jonahmerrell.github.io/math5610)
 
 ### Task 4
-- [Task4.md](Task4/Task4.md)
+For this task, we were asked to create a software manual, to be used for all of the programs we make throughout the class.
+
+- Link to my Software Manual: [https://jonahmerrell.github.io/math5610/software_manual/softwaremanual](https://jonahmerrell.github.io/math5610/software_manual/softwaremanual)
 
 ### Task 5
 - [Task5.md](Task5/Task5.md)
