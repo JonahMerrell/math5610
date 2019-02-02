@@ -28,12 +28,12 @@ precision of double precision arithmetic.
 ### Task 2
 For this task, we were asked to create a repository at github.com with the name username/math5610.
 
-- My github Repository: [https://github.com/JonahMerrell/math5610](https://github.com/JonahMerrell/math5610)
+- Link to my github Repository: [https://github.com/JonahMerrell/math5610](https://github.com/JonahMerrell/math5610)
 
 ### Task 3
 For this task, we were asked to create a repository at github pages.
 
-- My github pages website: [https://jonahmerrell.github.io/math5610](https://jonahmerrell.github.io/math5610)
+- Link to my github pages website: [https://jonahmerrell.github.io/math5610](https://jonahmerrell.github.io/math5610)
 
 ### Task 4
 For this task, we were asked to create a software manual, to be used for all of the programs we make throughout the class.
@@ -41,17 +41,47 @@ For this task, we were asked to create a software manual, to be used for all of 
 - Link to my Software Manual: [https://jonahmerrell.github.io/math5610/software_manual/softwaremanual](https://jonahmerrell.github.io/math5610/software_manual/softwaremanual)
 
 ### Task 5
-- [Task5.md](Task5/Task5.md)
+For this task, we were asked to create a table of contents for the homework tasks. In my case, my table of contents is
+set up to be the homepage for my github pages website.
+
+- Link to my Table of Contents: [https://jonahmerrell.github.io/math5610](https://jonahmerrell.github.io/math5610)
 
 ### Task 6
-- [dmaceps.f](Task6/dmaceps.f)
-- [dmaceps.o](Task6/dmaceps.o)
-- [mylib](Task6/mylib)
-- [mylib.a](Task6/mylib.a)
-- [smaceps.f](Task6/smaceps.f)
-- [smaceps.o](Task6/smaceps.o)
-- [test.exe](Task6/test.exe)
-- [test.f](Task6/test.f)
+For this task, we were asked to create a shared library of our code. The 2 routines created during task1 were used as
+the first 2 files in the shared library. I used the fortran version of the two routines provided by Joe Koebbe for this task.
+The 2 files are called *smaceps.f* and *dmaceps.f* (See below for all files created/used during this task). In order to
+create the shared library, I did the following:
+
+1) I logged in to a computer at the Engineering Lab, an opened a command terminal
+2) I placed the 2 routines *smaceps.f* and *dmaceps.f* into a folder
+3) I compiled the 2 routines into object modules *smaceps.o* and *dmaceps.o*, using the following command:
+
+      gfortran -c *.f
+
+4) I created a shared library *mylib.a* from the ".o" files I just created using the command
+
+      ar rcv mylib.a *.o
+
+5) In order to test that my shared library was functioning properly, I created a driver routine called "test.f" that 
+would run the two routines from the shared library. To execute my *test.f* file, I created *test.exe* with the command:
+
+      gfortran test.f mylib.a -o test.exe
+
+6) Finally, I ran *test.exe* to verify that my shared library is working, using the command:
+
+      ./test.exe
+
+- Code:
+  - [dmaceps.f](Task6/dmaceps.f)
+  - [smaceps.f](Task6/smaceps.f)
+  - [dmaceps.o](Task6/dmaceps.o)
+  - [smaceps.o](Task6/smaceps.o)
+  - [mylib.a](Task6/mylib.a)
+  - [test.f](Task6/test.f)
+  - [test.exe](Task6/test.exe)   
+  - [mylib](Task6/mylib)
+
+
 
 ### Task 7
 - [Answer.pdf](Task7/Answer.pdf)
