@@ -90,6 +90,7 @@ A matrix norm is a way of measuring the numerical “size” or “magnitude” 
 - llA + Bll = llAll + llBll <br>
 - llAll >= 0 <br>
 - llAll = 0 iff A = 0m,n <br>
+
 Thus, there can be many candidates for valid matrix norms. An induced matrix norm is a norm formula based off how much larger a vector gets when the matrix is operated on the vector. (The matrix acts as a linear operator on the vector). For example, 3 vector norms include the 1-norm, 2-norm, and infinity-norm, and each one of these vector-norms has a corresponding induced matrix norm. 
 
 **Sources used:**
