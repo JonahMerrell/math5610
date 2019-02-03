@@ -51,25 +51,36 @@ For this task, we were asked to implement a method that will return a scalar mul
   - [vector_scal_mult](../software_manual/vector_scal_mult/vector_scal_mult.md)
 
 ### Task 6
-- [dmaceps.f](Task6/dmaceps.f)
-- [dmaceps.o](Task6/dmaceps.o)
-- [mylib](Task6/mylib)
-- [mylib.a](Task6/mylib.a)
-- [smaceps.f](Task6/smaceps.f)
-- [smaceps.o](Task6/smaceps.o)
-- [test.exe](Task6/test.exe)
-- [test.f](Task6/test.f)
+For this task, we were asked to implement a method that will compute the 2-norm of an arbitrary vector will real number entries.
+
+- Code:
+  - [vector_2norm.py](Task4/vector_2norm.py)
+- Software Manual entry:
+  - [vector_2norm](../software_manual/vector_2norm/vector_2norm.md)
 
 ### Task 7
-- [Answer.pdf](Task7/Answer.pdf)
-- [hello.exe](Task7/hello.exe)
-- [hello.f](Task7/hello.f)
+For this task, we were asked to implement a method that will compute the 1-norm of an arbitrary vector will real number entries.
+
+- Code:
+  - [vector_1norm.py](Task4/vector_1norm.py)
+- Software Manual entry:
+  - [vector_1norm](../software_manual/vector_1norm/vector_1norm.md)
 
 ### Task 8
-- [Task8_paragraphs.pdf](Task8/Answer.pdf)
+For this task, we were asked to implement a method that will compute the ∞-norm of an arbitrary vector will real number entries.
+
+- Code:
+  - [norm_inf_vector.py](Task4/norm_inf_vector.py)
+- Software Manual entry:
+  - [norm_inf_vector](../software_manual/norm_inf_vector/norm_inf_vector.md)
 
 ### Task 9
-- [random_matrix.py](Task9/random_matrix.py)
+For this task, we were asked to write a routine that will generate a symmetric matrix that has real values in all entries of the matrix.
+
+- Code:
+  - [gen_sym_matrix.py](Task4/gen_sym_matrix.py)
+- Software Manual entry:
+  - [gen_sym_matrix](../software_manual/gen_sym_matrix/gen_sym_matrix.md)
 
 ### Task 10
 - [Linear_Algebra_Packages.pdf](Task10/Linear_Algebra_Packages.pdf)
