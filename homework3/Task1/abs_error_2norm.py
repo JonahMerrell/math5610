@@ -2,31 +2,29 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       January 19 2019
-written for:        Homework2 Task4
+date written:       february 5 2019
+written for:        Homework3 Task1
 course:             Math 5610
 
-purpose:            Add the components of 2 equal size vectors together.
+purpose:            Implement a method that returns the absolute error in the approximation of one vector by another when the 2-norm is used
 '''
 
-
+import sys, os
+sys.path.append(os.path.abspath('../../mylibrary'))
+from _mymodules import *
+#from _mymodules import abs_error
+#from _mymodules import vector_2norm
 
 import math
-#import homework2.Task6
 
-def abs_error_2norm(vector):
-
-    sum = 0.0
-    for i in range(len(vector)):
-        sum += (vector[i])*(vector[i])
-    norm_2 = math.pow(sum,0.5)
-
-    return norm_2
-
+#def abs_error_2norm(true_value,vector):
+#    return abs_error(true_value,vector_2norm(vector))
 
 #The code below is used just for testing.
-vector = [5,7,9,2,5]
-print(abs_error_2norm(vector))
+#vector = [5,7,9,2,5]
+#print(abs_error_2norm(13.6,vector))
 
-print(sys.path)
+vector = [5,7,9,2,5]
+print(calc_abs_error(5,5.5))
+
 

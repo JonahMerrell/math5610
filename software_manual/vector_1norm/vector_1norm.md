@@ -29,7 +29,7 @@ Output from the lines above:
 
 The above number printed is the 1-norm of the given vector.
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for vector_1norm()
 
 
       def vector_1norm(vector):

@@ -2,7 +2,7 @@
 
 ## [Back](../softwaremanual)
 
-**Routine Name:**           calc_rel_error.py
+**Routine Name:**           rel_error.py
 
 **Author:** Jonah Merrell
 
@@ -21,7 +21,7 @@
 Since the routine returns the relative error of an approximation, then we must provide it with our approximation, as well
  as the true value (in order to make the comparison). Below shows an example:
 
-      print(calc_rel_error(1.0,1.0000132)
+      print(rel_error(1.0,1.0000132)
 
 Output from the line above:
 
@@ -29,9 +29,9 @@ Output from the line above:
 
 The above value (printed as the output) represents the relative error of the approximation to the true value given in the input.
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for rel_error()
 
 
-      def calc_rel_error(true_value,appr_value):
-          rel_error = abs((true_value - appr_value)/true_value)
-          return rel_error
+      def rel_error(true_value,appr_value):
+          rel_error_value = abs((true_value - appr_value)/true_value)
+          return rel_error_value

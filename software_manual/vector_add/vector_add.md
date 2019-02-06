@@ -37,7 +37,7 @@ The above vector printed is the "sum" of the previous 2 vectors provided. For ex
  in the new vector produced by "vector_add" is "8". This is how the other 4 elements in the new vector
  were produced.
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for vector_add()
 
 
       def vector_add(vector1,vector2):

@@ -34,7 +34,7 @@ The above vector printed is the 5 times greater then the original vector provide
  in the new vector produced by "vector_scal_mult" is "35". This is how the other 4 elements in the new vector
  were produced.
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for vector_scal_mult()
 
 
       def vector_scal_mult(scalar,vector):

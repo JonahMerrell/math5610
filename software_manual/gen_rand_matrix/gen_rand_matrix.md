@@ -42,7 +42,7 @@ In the example above, "4" was chosen to be the width of the matrix, and "6" was 
  The above matrix generated is just one possible matrix generated, since the content of the matrix is generated randomly.
  Calling this function again would (likely) produce a matrix with different randomly generated numbers inside.
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for gen_rand_matrix()
 
 
       import random

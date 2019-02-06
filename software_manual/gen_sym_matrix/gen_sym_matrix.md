@@ -43,7 +43,7 @@ In the example above, "8" was chosen to be the size of the matrix to be generate
  one possible matrix generated, since the content of the matrix is generated randomly.  Calling this function
  again would (likely) produce a matrix with different randomly generated numbers inside.
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for gen_sym_matrix()
 
 
       import random
