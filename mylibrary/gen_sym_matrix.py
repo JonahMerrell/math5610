@@ -10,7 +10,7 @@ purpose:            Create a n*n symmetric  matrix (the size is inputted from th
 '''
 import random
 
-def generate_sym_matrix():
+def gen_sym_matrix():
     width = int(input("Please enter the width of the square matrix: "))
 
     A = [[0 for i in range(width)] for j in range(width)]
@@ -22,7 +22,7 @@ def generate_sym_matrix():
     return A
 
 #The code below is used just for testing.
-#A_ = generate_sym_matrix()
+#A_ = gen_sym_matrix()
 #for i in range(len(A_)):
 #    print(A_[i])
 

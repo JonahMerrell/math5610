@@ -22,7 +22,7 @@
 Below shows an example of generating a matrix using the routine "gen_rand_matrix". Then the matrix is printed 
 one row at a time (for readability's sake). 
 
-      A_ = generate_sym_matrix()
+      A_ = gen_sym_matrix()
       for i in range(len(A_)):
           print(A_[i])
 
@@ -47,7 +47,7 @@ In the example above, "4" was chosen to be the width of the matrix, and "6" was 
 
       import random
       
-      def generate_random_matrix():
+      def gen_random_matrix():
           width = int(input("Please enter the width of the matrix: "))
           height = int(input("Please enter the height of the matrix: "))
           A = [[0 for i in range(width)] for j in range(height)]

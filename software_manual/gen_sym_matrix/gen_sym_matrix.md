@@ -22,7 +22,7 @@
 Below shows an example of generating a symet5ric matrix using the routine "gen_sym_matrix". Then the matrix is printed 
 one row at a time (for readability's sake). 
 
-      A_ = generate_sym_matrix()
+      A_ = gen_sym_matrix()
       for i in range(len(A_)):
           print(A_[i])
 
@@ -48,7 +48,7 @@ In the example above, "8" was chosen to be the size of the matrix to be generate
 
       import random
       
-      def generate_sym_matrix():
+      def gen_sym_matrix():
           width = int(input("Please enter the width of the square matrix: "))
       
           A = [[0 for i in range(width)] for j in range(width)]
