@@ -19,6 +19,6 @@ def vector_2norm(vector):
     return norm_2
 
 #The code below is used just for testing.
-#vector = [5,7,9,2,5]
-#print(vector_2norm(vector))
+vector = [5,7,9,2,5]
+print(vector_2norm(vector))
 

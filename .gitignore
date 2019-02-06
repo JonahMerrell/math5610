@@ -1,0 +1,3 @@
+# Python cruft
+*.pyc
+project_import_test
