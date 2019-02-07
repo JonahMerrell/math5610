@@ -1,6 +1,6 @@
 # math5610 Table of Contents
 
-## [Software Manuel](software_manual/softwaremanual)
+## [Software Manual](software_manual/softwaremanual)
 
 ## Homework
 - [Homework1](homework1/homework1_solutions)

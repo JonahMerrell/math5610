@@ -11,7 +11,7 @@
 **Description/Purpose:** This routine will compute the relative error of an approximation of a number, given the
  true value and approximation. The formula for calcualting the relative error is: rel_error = rel_error = abs((true_value - appr_value)/true_value)
 
-**Input:** argument1: The true value
+**Input:** argument1: The true value<br>
 		   argument2: The approximation to the true value
 
 **Output:** This routine returns a the relative error of the approximation given (as a float).

@@ -11,7 +11,7 @@
 **Description/Purpose:** This routine will multipy a vector by a scalar . More precisly speaking, this
  routine will multiply all of the components of a vector by a scalar.
 
-**Input:** argument1: The scalar to be multiplied with the vector
+**Input:** argument1: The scalar to be multiplied with the vector<br>
 		   argument2: The vector to be multiplied
 		   
 **Output:** This routine returns a vector that is obtained from the result of multiplying all of its

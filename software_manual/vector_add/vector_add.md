@@ -12,8 +12,8 @@
  routine will add the corresponding componenets of 2 vectors together to obtain a third vector, which
  we consider to be the "sum" of the 2 original vectors.
 
-**Input:** argument1: The first vector to be added
-		   argument2: The second vector to be added
+**Input:** argument1: The first vector to be added<br>
+		   argument2: The second vector to be added<br>
 		   The 2 vectors given must have equal length.
 		   
 **Output:** This routine returns a vector that is obtained from the result of adding the

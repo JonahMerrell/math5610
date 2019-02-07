@@ -10,7 +10,7 @@
 
 **Description/Purpose:** This routine will compute the the absolute error in the approximation of one vector by another when the 2-norm is used.
 
-**Input:** argument1: A vector that is the true value.
+**Input:** argument1: A vector that is the true value. <br>
 		   argument2: A vector that is an approximation to the true value.
 
 **Output:** This routine returns the 2-norm of the absolute error of the approximation given.

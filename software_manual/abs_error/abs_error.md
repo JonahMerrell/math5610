@@ -11,7 +11,7 @@
 **Description/Purpose:** This routine will compute the absolute error of an approximation of a number, given the
  true value and approximation. The formula for calcualting the absolute error is: abs_error = abs(true_value - appr_value)
 
-**Input:** argument1: The true value
+**Input:** argument1: The true value <br>
 		   argument2: The approximation to the true value
 
 **Output:** This routine returns a the absolute error of the approximation given.
