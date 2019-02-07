@@ -41,17 +41,17 @@ For this task, we were asked to implement a method that returns the absolute err
 For this task, we were asked to implement a method that returns the 1-matrix norm of a given square matrix.
 
 - Code:
-  - [vector_1norm.py](Task4/vector_1norm.py)
+  - [matrix_1norm.py](Task4/matrix_1norm.py)
 - Software Manual entry:
-  - [vector_1norm](../software_manual/vector_1norm/vector_1norm.md)
+  - [matrix_1norm](../software_manual/matrix_1norm/matrix_1norm.md)
 
 ### Task 5
 For this task, we were asked to implement a method that returns the ∞-norm of a given square matrix.
 
 - Code:
-  - [vector_infnorm.py](Task5/vector_infnorm.py)
+  - [matrix_infnorm.py](Task5/matrix_infnorm.py)
 - Software Manual entry:
-  - [vector_infnorm](../software_manual/vector_infnorm/vector_infnorm.md)
+  - [matrix_infnorm](../software_manual/matrix_infnorm/matrix_infnorm.md)
 
 ### Task 6
 For this task, we were asked to implement a method that returns the dot produce of two vectors of the same length.

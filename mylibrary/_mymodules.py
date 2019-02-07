@@ -10,3 +10,12 @@ from vector_add import vector_add
 from vector_infnorm import vector_infnorm
 from vector_scal_mult import vector_scal_mult
 
+from abs_error_2norm import abs_error_2norm
+from abs_error_1norm import abs_error_1norm
+from abs_error_infnorm import abs_error_infnorm
+from matrix_1norm import matrix_1norm
+from matrix_infnorm import matrix_infnorm
+from vector_dot import vector_dot
+from vector_cross import vector_cross
+from matrix_mult import matrix_mult
+from gen_diagdom_matrix import gen_diagdom_matrix
