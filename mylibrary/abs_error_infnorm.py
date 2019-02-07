@@ -24,7 +24,7 @@ def abs_error_infnorm(true_vector,appr_vector):
     return abs_error
 
 #The code below is used just for testing.
-vector1 = [5,7,9,2,5]
-vector2 = [5.1,7.2,8.7,2,5.15]
-print(abs_error_infnorm(vector1,vector2))
+#vector1 = [5,7,9,2,5]
+#vector2 = [5.1,7.2,8.7,2,5.15]
+#print(abs_error_infnorm(vector1,vector2))
 
