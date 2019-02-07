@@ -30,7 +30,7 @@ Output from the line above:
 
 The above value (printed as the output) represents the 2-norm of the absolute error of the approximation to the true value given in the input.
 
-**Implementation/Code:** The following is the code for abs_error()
+**Implementation/Code:** The following is the code for abs_error_2norm()
 
 
       import sys, os
