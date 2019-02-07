@@ -12,14 +12,16 @@ import math
 
 import sys, os
 sys.path.append(os.path.abspath('../../mylibrary'))
-from _mymodules import abs_error, vector_2norm
+from _mymodules import vector_2norm, vector_add, vector_scal_mult
 
 
-def abs_error_2norm(true_value,vector):
-    return abs_error(true_value,vector_2norm(vector))
+def abs_error_2norm(true_vector,appr_vector):
+    abs_error = vector_2norm(vector_add(true_vector,vector_scal_mult(-1,appr_vector)))
+    return abs_error
 
 #The code below is used just for testing.
-#vector = [5,7,9,2,5]
-#print(abs_error_2norm(13.6,vector))
+#vector1 = [5,7,9,2,5]
+#vector2 = [5.1,7.2,8.7,2,5.15]
+#print(abs_error_2norm(vector1,vector2))
 
 
