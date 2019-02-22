@@ -15,12 +15,13 @@ def gen_sym_matrix():
 
     A = [[0 for i in range(width)] for j in range(width)]
     for i in range(0, width):
-        for j in range(i, width):
+        for j in range(i+1, width):
             value = random.random()
             A[j][i] = value
             A[i][j] = value
+    for i in range(0, width):
+        A[i][i] = random.random()
     return A
-
 #The code below is used just for testing.
 #A_ = gen_sym_matrix()
 #for i in range(len(A_)):

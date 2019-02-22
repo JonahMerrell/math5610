@@ -33,6 +33,8 @@ The above number printed is the 1-norm of the given vector.
 
 
       def vector_infnorm(vector):
-          norm_inf = float(max(vector))
-      
-          return norm_inf
+          temp_max = 0
+          for i in range(len(vector)):
+              if temp_max < abs(vector[i]):
+                  temp_max = abs(vector[i])
+          return temp_max

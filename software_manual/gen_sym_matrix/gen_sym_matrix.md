@@ -53,8 +53,10 @@ In the example above, "8" was chosen to be the size of the matrix to be generate
       
           A = [[0 for i in range(width)] for j in range(width)]
           for i in range(0, width):
-              for j in range(i, width):
+              for j in range(i+1, width):
                   value = random.random()
                   A[j][i] = value
                   A[i][j] = value
+          for i in range(0, width):
+              A[i][i] = random.random()
           return A
