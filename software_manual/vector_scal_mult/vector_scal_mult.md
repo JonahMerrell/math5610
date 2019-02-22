@@ -38,7 +38,8 @@ The above vector printed is the 5 times greater then the original vector provide
 
 
       def vector_scal_mult(scalar,vector):
+          vector_new = vector.copy()
           for i in range(len(vector)):
-              vector[i] *= scalar
+              vector_new[i] *= scalar
       
-          return vector
+          return vector_new

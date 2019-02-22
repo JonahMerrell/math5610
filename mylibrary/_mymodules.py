@@ -1,4 +1,4 @@
-from abs_error import abs_error
+ from abs_error import abs_error
 from dmaceps import calculate_double_float_precision
 from gen_rand_matrix import gen_random_matrix
 from gen_sym_matrix import gen_sym_matrix
@@ -19,3 +19,13 @@ from vector_dot import vector_dot
 from vector_cross import vector_cross
 from matrix_mult import matrix_mult
 from gen_diagdom_matrix import gen_diagdom_matrix
+
+from matrix_scal_mult import matrix_scal_mult
+from matrix_add import matrix_add
+from matrix_outer import matrix_outer
+from matrix_solve_diagonal import matrix_solve_diagonal
+from matrix_solve_upper_tri import matrix_solve_upper_tri
+from matrix_solve_lower_tri import matrix_solve_lower_tri
+from matrix_ref import matrix_ref
+from matrix_solve import matrix_solve
+from gen_diagdom_sym_matrix import gen_diagdom_sym_matrix

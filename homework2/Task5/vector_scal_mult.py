@@ -11,10 +11,11 @@ purpose:            Multiply the given vector by a scalar.
 
 
 def vector_scal_mult(scalar,vector):
+    vector_new = vector.copy()
     for i in range(len(vector)):
-        vector[i] *= scalar
+        vector_new[i] *= scalar
 
-    return vector
+    return vector_new
 
 #The code below is used just for testing.
 #vector = [5,7,9,2,5]
