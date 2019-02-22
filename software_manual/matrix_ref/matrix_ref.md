@@ -26,7 +26,11 @@ Below shows an example of reducing a matrix to row echelon form using the routin
 
 Output from the lines above:
 
-      [[5, 27, -2, 12], [-1, 6, 0, 6]]
+      [1.0, 0.8333333333333331, 0.6666666666666665, 0.5, 0.33333333333333326]
+      [0.0, 1.0, 1.1428571428571426, -0.4285714285714284, 0.9999999999999998]
+      [0.0, 0.0, 1.0, 7.499999999999999, 6.416666666666666]
+      [-0.0, -0.0, -0.0, 1.0, 0.7454212454212452]
+      [0.0, 0.0, 0.0, 2.4853064300129014e-15, 1.0]
 
 The above matrix printed is the original matrix reduced to row echelon form.
 

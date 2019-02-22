@@ -27,7 +27,7 @@ Below shows an example of solving a system of linear equations of the form "Ax =
 
 Output from the lines above:
 
-      [-13.0, 18.25, -14.5, 7.0, 6.0]
+      [2.6226777706598146, -1.3299167200512425, -1.7258167841127303, -1.1672005124919766, 6.659192825112087]
 
 In the example above, the matrix representing "A" in the system "Ax = b" had a width of "5". The output vector "x"
  is the solution vector to the system, so that Ax = b.

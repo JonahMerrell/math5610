@@ -14,7 +14,7 @@ import sys, os
 sys.path.append(os.path.abspath('../../mylibrary'))
 from _mymodules import vector_1norm
 
-def gen_diagdom_matrix():
+def gen_diagdom_sym_matrix():
     width = int(input("Please enter the width of the square matrix: "))
     A = [[0 for i in range(width)] for j in range(width)]
     for i in range(0, width):
@@ -28,7 +28,7 @@ def gen_diagdom_matrix():
     return A
 
 #The code below is used just for testing.
-#A_ = gen_diagdom_matrix()
+#A_ = gen_diagdom_sym_matrix()
 #for i in range(len(A_)):
 #    print(A_[i])
 
