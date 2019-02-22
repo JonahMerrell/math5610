@@ -1,4 +1,4 @@
- from abs_error import abs_error
+from abs_error import abs_error
 from dmaceps import calculate_double_float_precision
 from gen_rand_matrix import gen_random_matrix
 from gen_sym_matrix import gen_sym_matrix

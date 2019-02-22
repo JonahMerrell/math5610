@@ -24,7 +24,7 @@ Below shows an example of finding the 1-norm of a matrix with a length of 5 usin
 
 Output from the lines above:
 
-      28.0
+      75.0
 
 The above number printed is the 1-norm of the given matrix.
 
@@ -32,8 +32,11 @@ The above number printed is the 1-norm of the given matrix.
 
 
       def matrix_1norm(matrix):
-          sum = 0.0
-          for i in range(len(matrix[0])):
-              for j in range(len(matrix[0])):
-                  sum += matrix[i][j]
-          return sum
+          temp_list = []
+          for j in range(len(matrix[0])):
+              sum = 0.0
+              for i in range(len(matrix)):
+                  sum += abs(matrix[i][j])
+              temp_list.append(sum)
+      
+          return max(temp_list)

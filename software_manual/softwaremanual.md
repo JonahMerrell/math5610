@@ -22,3 +22,15 @@
 - [gen_sym_matrix](gen_sym_matrix/gen_sym_matrix.md)
 - [gen_rand_matrix](gen_rand_matrix/gen_rand_matrix.md)
 - [gen_diagdom_matrix](gen_diagdom_matrix/gen_diagdom_matrix.md)
+
+- [matrix_scal_mult](matrix_scal_mult/matrix_scal_mult.md)
+- [matrix_add](matrix_add/matrix_add.md)
+- [matrix_outer](matrix_outer/matrix_outer.md)
+- [matrix_solve_diagonal](matrix_solve_diagonal/matrix_solve_diagonal.md)
+- [matrix_solve_upper_tri](matrix_solve_upper_tri/matrix_solve_upper_tri.md)
+- [matrix_solve_lower_tri](matrix_solve_lower_tri/matrix_solve_lower_tri.md)
+- [matrix_ref](matrix_ref/matrix_ref.md)
+- [matrix_solve](matrix_solve/matrix_solve.md)
+- [gen_diagdom_sym_matrix](gen_diagdom_sym_matrix/gen_diagdom_sym_matrix.md)
+
+

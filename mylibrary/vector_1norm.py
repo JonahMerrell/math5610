@@ -12,7 +12,7 @@ purpose:            Calculate the 1-norm of a vector
 def vector_1norm(vector):
     sum = 0.0
     for i in range(len(vector)):
-        sum += vector[i]
+        sum += abs(vector[i])
 
     return sum
 

@@ -19,7 +19,7 @@ works for vectors with a length of 3.
 
 **Usage/Example:**
 
-Below shows an example of calcualting the cross product of 2 different vectors with a length of 5 using the routine.
+Below shows an example of calcualting the cross product of 2 different vectors with a length of 3 using the routine.
  "vector_cross". 
 
       vector1 = [5,7,9]

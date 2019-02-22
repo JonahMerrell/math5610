@@ -24,7 +24,7 @@ Below shows an example of finding the infinity-norm of a matrix with a length of
 
 Output from the lines above:
 
-      28.0
+      125.0
 
 The above number printed is the infinity-norm of the given matrix.
 
@@ -32,9 +32,11 @@ The above number printed is the infinity-norm of the given matrix.
 
 
       def matrix_infnorm(matrix):
-          maximum = 0.0
-          for i in range(len(matrix[0])):
+          temp_list = []
+          for i in range(len(matrix)):
+              sum = 0.0
               for j in range(len(matrix[0])):
-                  if matrix[i][j] > maximum:
-                      maximum = matrix[i][j]
-          return maximum
+                  sum += abs(matrix[i][j])
+              temp_list.append(sum)
+      
+          return max(temp_list)

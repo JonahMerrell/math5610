@@ -40,8 +40,6 @@ The above value (printed as the output) represents the 1-norm of the absolute er
       
       def abs_error_1norm(true_vector,appr_vector):
           error_vector = vector_add(true_vector,vector_scal_mult(-1,appr_vector))
-          for i in range(len(error_vector)):
-              error_vector[i] = abs(error_vector[i])
           abs_error = vector_1norm(error_vector)
           return abs_error
 
