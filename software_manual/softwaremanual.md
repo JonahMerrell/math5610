@@ -2,7 +2,7 @@
 
 ## [Back](../)
 
-###CPU Precision Methods
+### CPU Precision Methods
 - [smaceps](smaceps/smaceps.md)
 - [dmaceps](dmaceps/dmaceps.md)
 
