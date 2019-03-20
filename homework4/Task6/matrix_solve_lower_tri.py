@@ -27,4 +27,6 @@ def matrix_solve_lower_tri(matrix,vector):
 #The code below is used just for testing.
 #matrix = [[8,0,0,0,0],[1,3,0,0,0],[3,7,2,0,0],[2,7,5,2,0],[7,3,10,8,4]]
 #vector = [12,25,38,27,48]
-#print(matrix_solve_lower_tri(matrix,vector))
+matrix = [[1,0,0],[1,1,0],[2,-0.3333333333333333,1]]
+vector = [4,-6,7]
+print(matrix_solve_lower_tri(matrix,vector))

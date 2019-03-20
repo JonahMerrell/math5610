@@ -22,7 +22,7 @@
 Below shows an example of generating a matrix using the routine "gen_rand_matrix". Then the matrix is printed 
 one row at a time (for readability's sake). 
 
-      A_ = gen_sym_matrix()
+      A_ = gen_rand_matrix()
       for i in range(len(A_)):
           print(A_[i])
 

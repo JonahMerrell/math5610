@@ -24,8 +24,8 @@ def gen_sym_matrix():
     return A
 
 #The code below is used just for testing.
-A_ = gen_sym_matrix()
-for i in range(len(A_)):
-    print(A_[i])
+#A_ = gen_sym_matrix()
+#for i in range(len(A_)):
+#    print(A_[i])
 
 

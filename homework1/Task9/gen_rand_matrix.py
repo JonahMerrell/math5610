@@ -11,7 +11,7 @@ purpose:            Create a n*m matrix (the size is inputted from the user) wit
 
 import random
 
-def gen_random_matrix():
+def gen_rand_matrix():
     width = int(input("Please enter the width of the matrix: "))
     height = int(input("Please enter the height of the matrix: "))
     A = [[0 for i in range(width)] for j in range(height)]

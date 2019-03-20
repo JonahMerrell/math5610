@@ -1,6 +1,10 @@
+#Extra methods created
+from matrix_transpose import matrix_transpose
+
+#Methods created for class
 from abs_error import abs_error
 from dmaceps import calculate_double_float_precision
-from gen_rand_matrix import gen_random_matrix
+from gen_rand_matrix import gen_rand_matrix
 from gen_sym_matrix import gen_sym_matrix
 from rel_error import rel_error
 from smaceps import calculate_single_float_precision
@@ -29,3 +33,12 @@ from matrix_solve_lower_tri import matrix_solve_lower_tri
 from matrix_ref import matrix_ref
 from matrix_solve import matrix_solve
 from gen_diagdom_sym_matrix import gen_diagdom_sym_matrix
+
+from matrix_solve_least_square import matrix_solve_least_square
+from matrix_LU_factor import matrix_LU_factor
+from gen_sym_posdef_matrix import gen_sym_posdef_matrix
+from matrix_cholesky_fac import matrix_cholesky_fac
+
+
+
+
