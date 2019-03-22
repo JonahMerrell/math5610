@@ -2,8 +2,8 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       Match 4 2019
-written for:        Homework5 Task4
+date written:       March 4 2019
+written for:        Homework5 Task5
 course:             Math 5610
 
 purpose:            Implement a method that will generate a symmetric, positive definite matrix.

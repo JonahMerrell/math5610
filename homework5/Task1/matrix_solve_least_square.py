@@ -2,7 +2,7 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       March 12 2019
+date written:       March 19 2019
 written for:        Homework5 Task1
 course:             Math 5610
 
