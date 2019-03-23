@@ -1,4 +1,4 @@
-# Homework4<br>
+# Homework5<br>
 
 ## [Back](../)
 
@@ -89,8 +89,8 @@ For this task, we were asked to write a routine that will generate a square diag
 ### Task 10
 For this task, we were asked to search the internet for sites that discuss the use of direct methods for the approximate solution of linear systems of systems of equations.
 
-There are various methods for computing the solution to a system of linear equations. Some of these methods include LU factorization, Gaussian Elimination and backward substitution, QR factorization, and the least squares method with Normal Equations
-One of the advantages of iterative methods is the increased speed when it is sufficient to find an approximate solution to a low degree of accuracy. Direct methods for solving systems of linear equations cannot obtain a solution until the entire process is completed, so there is no notion of an inexact yet acceptable solution.
+There are various methods for computing the solution to a system of linear equations. Some of these methods include LU factorization, Gaussian Elimination and backward substitution, QR factorization, and the least squares method with Normal Equations.<br>
+One of the advantages of iterative methods is the increased speed when it is sufficient to find an approximate solution to a low degree of accuracy. Direct methods for solving systems of linear equations cannot obtain a solution until the entire process is completed, so there is no notion of an inexact yet acceptable solution.<br>
 Additionally, depending on the circumstances, we may have a good initial guess for the solution of a system of linear equations. Iterative methods can make good use of this decent initial guess to find an accurate solution quickly, while direct methods can not utilize an initial good guess at all. Additionally, direct methods can become significantly slower for large systems of equations compared to iterative methods, because the number of operations necessary for direct methods are of the order O(n3), while iterative methods are of the order O(n2). Also, error accumulation for direct methods grow significantly for large systems of equations. Another advantage of iterative methods is their memory usage, which is significantly less than a direct solver for the same sized problem.
 
 **Sources used:**
