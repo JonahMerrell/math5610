@@ -6,7 +6,7 @@ date written:       March 4 2019
 written for:        Homework5 Task5
 course:             Math 5610
 
-purpose:            Implement a method that will generate a symmetric, positive definite matrix.
+purpose:            Implement a method that performs the Cholesky factorization method for square matrices
 '''
 import random
 import sys, os

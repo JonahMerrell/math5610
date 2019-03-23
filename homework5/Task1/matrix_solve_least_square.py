@@ -6,7 +6,7 @@ date written:       March 19 2019
 written for:        Homework5 Task1
 course:             Math 5610
 
-purpose:            This method will perform will find the solution of a matrix using a least squares technique.
+purpose:            This method will find the solution of a matrix by using the least squares method.
 '''
 
 import sys, os

@@ -36,9 +36,10 @@ from gen_diagdom_sym_matrix import gen_diagdom_sym_matrix
 
 from matrix_solve_least_square import matrix_solve_least_square
 from matrix_LU_factor import matrix_LU_factor
+from matrix_solve_LU import matrix_solve_LU
 from gen_sym_posdef_matrix import gen_sym_posdef_matrix
 from matrix_cholesky_fac import matrix_cholesky_fac
-
-
-
-
+from matrix_solve_least_square_normal import matrix_solve_least_square_normal
+from matrix_QR_factorization import matrix_QR_factorization
+from hilbert_matrix_QR_test import hilbert_matrix_QR_test
+from gen_sqr_diadom_matrix import gen_sqr_diadom_matrix

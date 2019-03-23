@@ -14,84 +14,91 @@
 - [x] [Task 10](#task-10)
 
 ### Task 1
-For this task, we were asked to implement a method that returns the absolute error in the approximation of one vector by another when the 2-norm is used.
+For this task, we were asked to implement a method that will return the approximate solution of a square linear system of equations where previous methods are not used. In my case, I used the least squares technique.
 
 - Code:
-  - [matrix_scal_mult.py](Task1/matrix_scal_mult.py)
+  - [matrix_solve_least_square.py](Task1/matrix_solve_least_square.py)
+  - [speed_test.py](Task1/speed_test.py)
 - Software Manual entry:
-  - [matrix_scal_mult](../software_manual/matrix_scal_mult/matrix_scal_mult.md)
+  - [matrix_solve_least_square](../software_manual/matrix_solve_least_square/matrix_solve_least_square.md)
 
 ### Task 2
-For this task, we were asked to implement a method that returns the absolute error in the approximation of one vector by another when the 1-norm is used
+For this task, we were asked to implement a method that returns the LU-factorization of a square matrix.
 
 - Code:
-  - [matrix_add.py](Task2/matrix_add.py)
+  - [matrix_LU_factor.py](Task2/matrix_LU_factor.py)
 - Software Manual entry:
-  - [matrix_add](../software_manual/matrix_add/matrix_add.md)
+  - [matrix_LU_factor](../software_manual/matrix_LU_factor/matrix_LU_factor.md)
 
 ### Task 3
-For this task, we were asked to implement a method that returns the absolute error in the approximation of one vector by another when the ∞-norm is used
+For this task, we were asked to solve a system of linear equations by performing LU factorization, followed with forward substitution and back substitution.
 
 - Code:
-  - [matrix_outer.py](Task3/matrix_outer.py)
+  - [matrix_solve_LU.py](Task3/matrix_solve_LU.py)
 - Software Manual entry:
-  - [matrix_outer](../software_manual/matrix_outer/matrix_outer.md)
+  - [matrix_solve_LU](../software_manual/matrix_solve_LU/matrix_solve_LU.md)
 
 ### Task 4
-For this task, we were asked to implement a method that returns the 1-matrix norm of a given square matrix.
+For this task, we were asked to implement a method that will generate a symmetric, positive definite matrix.
 
 - Code:
-  - [matrix_solve_diagonal.py](Task4/matrix_solve_diagonal.py)
+  - [gen_sym_posdef_matrix.py](Task4/gen_sym_posdef_matrix.py)
 - Software Manual entry:
-  - [matrix_solve_diagonal](../software_manual/matrix_solve_diagonal/matrix_solve_diagonal.md)
+  - [gen_sym_posdef_matrix](../software_manual/gen_sym_posdef_matrix/gen_sym_posdef_matrix.md)
 
 ### Task 5
-For this task, we were asked to implement a method that returns the ∞-norm of a given square matrix.
+For this task, we were asked to implement a method that performs the Cholesky factorization method for square matrices
 
 - Code:
-  - [matrix_solve_upper_tri.py](Task5/matrix_solve_upper_tri.py)
+  - [matrix_cholesky_fac.py](Task5/matrix_cholesky_fac.py)
 - Software Manual entry:
-  - [matrix_solve_upper_tri](../software_manual/matrix_solve_upper_tri/matrix_solve_upper_tri.md)
+  - [matrix_cholesky_fac](../software_manual/matrix_cholesky_fac/matrix_cholesky_fac.md)
 
 ### Task 6
-For this task, we were asked to implement a method that returns the dot produce of two vectors of the same length.
+For this task, we were asked to implement a method that will find the solution of a matrix using the least squares technique with normal equations.
 
 - Code:
-  - [matrix_solve_lower_tri.py](Task6/matrix_solve_lower_tri.py)
+  - [matrix_solve_least_square_normal.py](Task6/matrix_solve_least_square_normal.py)
 - Software Manual entry:
-  - [matrix_solve_lower_tri](../software_manual/matrix_solve_lower_tri/matrix_solve_lower_tri.md)
+  - [matrix_solve_least_square_normal](../software_manual/matrix_solve_least_square_normal/matrix_solve_least_square_normal.md)
 
 ### Task 7
-For this task, we were asked to implement a method that returns the cross-product of two vectors of length three.
+For this task, we were asked to implement a method that will find the solution of a matrix using a least squares technique with QR factorization
 
 - Code:
-  - [matrix_ref.py](Task7/matrix_ref.py)
+  - [matrix_QR_factorization.py](Task7/matrix_QR_factorization.py)
 - Software Manual entry:
-  - [matrix_ref](../software_manual/matrix_ref/matrix_ref.md)
+  - [matrix_QR_factorization](../software_manual/matrix_QR_factorization/matrix_QR_factorization.md)
 
 ### Task 8
-For this task, we were asked to implement a method that returns the product of two matrices with an equal inner dimension.
+For this task, we were asked to implement a method that tests the QR factorization method on various hilbert matrices
 
 - Code:
-  - [matrix_solve.py](Task8/matrix_solve.py)
+  - [hilbert_matrix_QR_test.py](Task8/hilbert_matrix_QR_test.py)
 - Software Manual entry:
-  - [matrix_solve](../software_manual/matrix_solve/matrix_solve.md)
+  - [hilbert_matrix_QR_test](../software_manual/hilbert_matrix_QR_test/hilbert_matrix_QR_test.md)
 
 ### Task 9
-For this task, we were asked to write a routine that will generate a diagonally dominant matrix that has real values in all entries of the matrix.
+For this task, we were asked to write a routine that will generate a square diagonally dominant matrix.
 
 - Code:
-  - [gen_diagdom_sym_matrix.py](Task9/gen_diagdom_sym_matrix.py)
+  - [gen_sqr_diagdom_matrix.py](Task9/gen_sqr_diagdom_matrix.py)
 - Software Manual entry:
-  - [gen_diagdom_sym_matrix](../software_manual/gen_diagdom_sym_matrix/gen_diagdom_sym_matrix.md)
+  - [gen_sqr_diagdom_matrix](../software_manual/gen_sqr_diagdom_matrix/gen_sqr_diagdom_matrix.md)
 
 ### Task 10
-For this task, we were asked to search the internet for sites that discuss parallel algorithms for matrix-vector multiplication and matrix-matrix multiplication..
+For this task, we were asked to search the internet for sites that discuss the use of direct methods for the approximate solution of linear systems of systems of equations.
 
-A parallel algorithm for matrix-vector/matrix-matrix multiplication refers to performing matrix operations on a computer, and achieving optimal computation speeds by utilizing parallel processing. Since a computer often has multiple processers, then the various tasks necessary to perform a matrix operation can be distributed among the multiple processors of the computer system. This can be done by partitioning the data into stripes (columns/rows), or into rectangular fragments (blocks). 
-Parallel processing can be difficult to program, because sending or receiving information from one processer to another takes up time, in addition to performing a calculation. Properly organizing a “network” of processers to work together to solve pieces of a problem and then assemble the pieces together can be difficult to implement, which is why partitioning data into simple “stripes” or “blocks” is the most commonly used approach.
+There are various methods for computing the solution to a system of linear equations. Some of these methods include LU factorization, Gaussian Elimination and backward substitution, QR factorization, and the least squares method with Normal Equations
+One of the advantages of iterative methods is the increased speed when it is sufficient to find an approximate solution to a low degree of accuracy. Direct methods for solving systems of linear equations cannot obtain a solution until the entire process is completed, so there is no notion of an inexact yet acceptable solution.
+Additionally, depending on the circumstances, we may have a good initial guess for the solution of a system of linear equations. Iterative methods can make good use of this decent initial guess to find an accurate solution quickly, while direct methods can not utilize an initial good guess at all. Additionally, direct methods can become significantly slower for large systems of equations compared to iterative methods, because the number of operations necessary for direct methods are of the order O(n3), while iterative methods are of the order O(n2). Also, error accumulation for direct methods grow significantly for large systems of equations. Another advantage of iterative methods is their memory usage, which is significantly less than a direct solver for the same sized problem.
 
 **Sources used:**
-- http://www.hpcc.unn.ru/mskurs/ENG/DOC/pp07.pdf
+- http://www.montefiore.ulg.ac.be/~geuzaine/INFO0939/hpc7.pdf
+- https://math.stackexchange.com/questions/2590237/is-qr-decomposition-a-direct-linear-system-solving-method
+- http://faculty.cse.tamu.edu/davis/publications_files/survey_tech_report.pdf
+- https://math.stackexchange.com/questions/2462931/what-are-the-benefits-of-iterative-method-against-lu-decomposition
+- https://people.eecs.berkeley.edu/~newton/Classes/EE219fa98/ee219a2_2/ee219a2_2.pdf
+- https://www.comsol.com/blogs/solutions-linear-systems-equations-direct-iterative-solvers/
 - https://ac.els-cdn.com/0898122188902623/1-s2.0-0898122188902623-main.pdf?_tid=7a54f0ee-6a4f-496f-93a7-3dda15b7612a&acdnat=1550794300_e042d57e90d5e3476b2a1421f3a13e6d
 

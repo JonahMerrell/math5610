@@ -6,7 +6,7 @@ date written:       March 21 2019
 written for:        Homework5 Task7
 course:             Math 5610
 
-purpose:            This method will find the solution of a matrix using a least squares technique with QR factorization.
+purpose:            This method will perform will find the solution of a matrix using a least squares technique.
 '''
 
 import sys, os
