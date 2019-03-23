@@ -88,7 +88,7 @@ For this task, we were asked to write a routine that will generate a diagonally 
 ### Task 10
 For this task, we were asked to search the internet for sites that discuss parallel algorithms for matrix-vector multiplication and matrix-matrix multiplication..
 
-A parallel algorithm for matrix-vector/matrix-matrix multiplication refers to performing matrix operations on a computer, and achieving optimal computation speeds by utilizing parallel processing. Since a computer often has multiple processers, then the various tasks necessary to perform a matrix operation can be distributed among the multiple processors of the computer system. This can be done by partitioning the data into stripes (columns/rows), or into rectangular fragments (blocks). 
+A parallel algorithm for matrix-vector/matrix-matrix multiplication refers to performing matrix operations on a computer, and achieving optimal computation speeds by utilizing parallel processing. Since a computer often has multiple processers, then the various tasks necessary to perform a matrix operation can be distributed among the multiple processors of the computer system. This can be done by partitioning the data into stripes (columns/rows), or into rectangular fragments (blocks).<br> 
 Parallel processing can be difficult to program, because sending or receiving information from one processer to another takes up time, in addition to performing a calculation. Properly organizing a “network” of processers to work together to solve pieces of a problem and then assemble the pieces together can be difficult to implement, which is why partitioning data into simple “stripes” or “blocks” is the most commonly used approach.
 
 **Sources used:**
