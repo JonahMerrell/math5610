@@ -14,13 +14,37 @@
 - [x] [Task 10](#task-10)
 
 ### Task 1
-For this task, we were asked to implement a method that will return the approximate solution of a square linear system of equations where previous methods are not used. In my case, I used the least squares technique. Test the speed of the code you generated in this problem and the code that references your previous methods. Try this for increasing sizes of the linear system.
+For this task, we were asked to implement a method that will return the approximate solution of a square linear system of equations where previous methods are not used. In my case, I used the least squares technique. Then test the speed of the code you generated in this problem and the code that references your previous methods. Try this for increasing sizes of the linear system.
 
 - Code:
   - [matrix_solve_least_square.py](Task1/matrix_solve_least_square.py)
   - [normal_equations_speed_test.py](Task1/normal_equations_speed_test.py)
 - Software Manual entry:
   - [matrix_solve_least_square](../software_manual/matrix_solve_least_square/matrix_solve_least_square.md)
+
+Using "normal_equations_speed_test", I compared the speed of solving a system of equations using normal equations to solving a system of equations using guassian elimination. Guassian elimination was found to require less computation time than the normal equations method, independant of the size of matrices used. The results are shown below:
+
+      Please enter the width of the matrix: 400
+      Please enter the height of the matrix: 400
+      Please enter the width of the matrix: 1
+      Please enter the height of the matrix: 400
+      Least Squares method: 29.101664543151855
+      Guassian elimination method: 12.16169548034668
+      
+      Please enter the width of the matrix: 300
+      Please enter the height of the matrix: 300
+      Please enter the width of the matrix: 1
+      Please enter the height of the matrix: 300
+      Least Squares method: 12.057689666748047
+      Guassian elimination method: 5.129293441772461
+      
+      Please enter the width of the matrix: 100
+      Please enter the height of the matrix: 100
+      Please enter the width of the matrix: 1
+      Please enter the height of the matrix: 100
+      Least Squares method: 0.4370250701904297
+      Guassian elimination method: 0.18301057815551758
+
 
 ### Task 2
 For this task, we were asked to implement a method that returns the LU-factorization of a square matrix.
