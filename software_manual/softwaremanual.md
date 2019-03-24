@@ -30,18 +30,28 @@
 - [matrix_solve_upper_tri](matrix_solve_upper_tri/matrix_solve_upper_tri.md)
 - [matrix_solve_lower_tri](matrix_solve_lower_tri/matrix_solve_lower_tri.md)
 - [matrix_solve](matrix_solve/matrix_solve.md)
+- [matrix_solve_least_square](matrix_solve_least_square/matrix_solve_least_square.md)
+- [matrix_solve_least_square_normal](matrix_solve_least_square_normal/matrix_solve_least_square_normal.md)
+- [matrix_solve_LU](matrix_solve_LU/matrix_solve_LU.md)
 - [matrix_ref](matrix_ref/matrix_ref.md)
 - [matrix_1norm](matrix_1norm/matrix_1norm.md)
 - [matrix_infnorm](matrix_infnorm/matrix_infnorm.md)
 - [matrix_mult](matrix_mult/matrix_mult.md)
+- [matrix_LU_factor](matrix_LU_factor/matrix_LU_factor.md)
+- [matrix_QR_factorization](matrix_QR_factorization/matrix_QR_factorization.md)
+- [matrix_cholesky_fac](matrix_cholesky_fac/matrix_cholesky_fac.md)
+- [hilbert_matrix_QR_test](hilbert_matrix_QR_test/hilbert_matrix_QR_test.md)
+
+#### Matrix System Solvers
+- [test](test/test.md)
 
 ### Random Matrix Generators
 - [gen_sym_matrix](gen_sym_matrix/gen_sym_matrix.md)
 - [gen_rand_matrix](gen_rand_matrix/gen_rand_matrix.md)
 - [gen_diagdom_matrix](gen_diagdom_matrix/gen_diagdom_matrix.md)
 - [gen_diagdom_sym_matrix](gen_diagdom_sym_matrix/gen_diagdom_sym_matrix.md)
-
-
+- [gen_sym_posdef_matrix](gen_sym_posdef_matrix/gen_sym_posdef_matrix.md)
+- [gen_sqr_diagdom_matrix](gen_sqr_diagdom_matrix/gen_sqr_diagdom_matrix.md)
 
 
 
