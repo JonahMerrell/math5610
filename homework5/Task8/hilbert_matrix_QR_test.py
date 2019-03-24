@@ -37,4 +37,4 @@ def hilbert_matrix_QR_test():
 
         print()  # Print a new line for organization purposes.
 
-#hilbert_matrix_QR_test()
+hilbert_matrix_QR_test()

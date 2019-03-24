@@ -26,5 +26,5 @@ def matrix_solve_LU(matrix,vector):
 #matrix_example = [[1,1,-1],[1,-2,3],[2,3,1]]
 #vector_example = [4,-6,7]
 #print(matrix_solve_LU(matrix_example,vector_example))
-#output: [1.0, 2.0, -1.0]
+
 

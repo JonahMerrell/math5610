@@ -9,7 +9,6 @@ course:             Math 5610
 purpose:            Implement a method that will generate a square diagonally dominant matrix.
 '''
 import random
-
 import sys, os
 sys.path.append(os.path.abspath('../../mylibrary'))
 from _mymodules import vector_1norm

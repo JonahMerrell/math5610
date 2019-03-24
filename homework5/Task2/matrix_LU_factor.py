@@ -10,10 +10,8 @@ purpose:            This method will return the LU-factorization of a square mat
 '''
 import copy
 
-
 def matrix_LU_factor(matrix):
     n = len(matrix)
-    #m = len(matrix[0])
     u_matrix = copy.deepcopy(matrix)
     l_matrix = [[0 for i in range(n)] for j in range(n)]
     for k in range(0,n):
@@ -26,7 +24,6 @@ def matrix_LU_factor(matrix):
     for i in range(1,n):
         for j in range(0, i):
             u_matrix[i][j] = 0.0
-
 
     return [l_matrix,u_matrix]
 

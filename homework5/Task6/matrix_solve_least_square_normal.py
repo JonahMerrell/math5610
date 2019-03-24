@@ -28,6 +28,4 @@ def matrix_solve_least_square_normal(matrix,vector):
 #vector_example = [12,25,38,27,48]
 #print(matrix_solve_least_square_normal(matrix_example,vector_example))
 
-#[2.6226777706598434, -1.3299167200512514, -1.725816784112757, -1.1672005124920306, 6.659192825112138]
-
 

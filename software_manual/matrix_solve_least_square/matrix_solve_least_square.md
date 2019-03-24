@@ -1,4 +1,4 @@
-# Software Manual (matrix_solve.py)
+# Software Manual (matrix_solve_least_square.py)
 
 ## [Back](../softwaremanual)
 
@@ -32,7 +32,7 @@ Output from the lines above:
 In the example above, the matrix "A" in the system "Ax = b" has 3 linearly independant rows but only 2 columns, meaning that the system has no exact solution. Using the least-squares method, the closest solution possible is found.
  Thus, the solution "x" returned above is the solution for x that has the smallest residual.
 
-**Implementation/Code:** The following is the code for matrix_solve()
+**Implementation/Code:** The following is the code for matrix_solve_least_square()
       
       import sys, os
       sys.path.append(os.path.abspath('../../mylibrary'))

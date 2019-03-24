@@ -30,7 +30,10 @@ def matrix_QR_factorization(matrix):
 
 #The code below is used just for testing.
 #matrix_example = [[1,2,4],[0,0,5],[0,3,6]]
-#print(matrix_QR_factorization(matrix_example))
+#matrix_new = matrix_QR_factorization(matrix_example)
+#for i in range(0,len(matrix_example)):
+#    print(matrix_new[0][i])
+#for i in range(0,len(matrix_example)):
+#    print(matrix_new[1][i])
 
-#[[[1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [0.0, 1.0, 0.0]], [[1.0, 2.0, 4.0], [0.0, 3.0, 6.0], [0.0, 0.0, 5.0]]]
 

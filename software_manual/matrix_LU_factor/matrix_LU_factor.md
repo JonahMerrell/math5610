@@ -1,45 +1,63 @@
-# Software Manual (matrix_scal_mult.py)
+# Software Manual (matrix_LU_factor.py)
 
 ## [Back](../softwaremanual)
 
-**Routine Name:**           matrix_scal_mult.py
+**Routine Name:**           matrix_LU_factor.py
 
 **Author:** Jonah Merrell
 
 **Language:** Python 3.7.0
 
-**Description/Purpose:** This routine will multipy a matrix by a scalar . More precisly speaking, this
- routine will multiply all of the components of a matrix by a scalar.
+**Description/Purpose:** This routine return the LU-factorization of a square matrix A. The 2 matrices L and U returned from this routine satisfy LU = A (Where A is the original matrix, and L is a lower triangle matrix, and U is an upper triangle matrix).
 
-**Input:** argument1: The scalar to be multiplied with the matrix<br>
-		   argument2: The matrix to be multiplied
+**Input:** argument1: The matrix to perform LU factorization on<br>
 		   
-**Output:** This routine returns a matrix that is obtained from the result of multiplying all of its
-  componenents by the scalar given. 
+**Output:** This routine returns a list containing 2 elements. The first element is the
+ lower triangle matrix, and the second element is the upper triangle matrix.
 
 **Usage/Example:**
 
-Below shows an example of a matrix with a length of 5 being multiplied by 5 using the routine
- "matrix_scal_mult". 
+Below shows an example of a matrix with a length of 3 being LU factorized using the routine
+ "matrix_LU_factor". 
 
-      matrix = [[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],[21,22,23,24,25]]
-      print(matrix_scal_mult(5,matrix))
+      matrix = [[1.0,1.0,-1.0],[1.0,-2.0,3.0],[2.0,3.0,1.0]]
+      matrix_new = matrix_LU_factor(matrix)
+      for i in range(0,len(matrix)):
+          print(matrix_new[0][i])
+      for i in range(0,len(matrix)):
+          print(matrix_new[1][i])
 
 Output from the lines above:
 
-      [[5, 10, 15, 20, 25], [30, 35, 40, 45, 50], [55, 60, 65, 70, 75], [80, 85, 90, 95, 100], [105, 110, 115, 120, 125]]
+      [1.0, 0, 0]
+      [1.0, 1.0, 0]
+      [2.0, -0.3333333333333333, 1.0]
+	  
+      [1.0, 1.0, -1.0]
+      [0.0, -3.0, 4.0]
+      [0.0, 0.0, 4.333333333333333]
 
-The above matrix printed is the 5 times greater then the original matrix provided. For example, consider the second
- row in the matrix given as input, "[6,7,8,9,10]" . After multiplying by 5 in this example, the second element
- in the new matrix produced by "matrix_scal_mult" is "[30, 35, 40, 45, 50]". This is true for all the components of the matrix.
+The two matrices printed above are the lower-triangle and upper-triangle matrices that satisfy LU = A (Where A is the original matrix).
 
-**Implementation/Code:** The following is the code for matrix_scal_mult()
+**Implementation/Code:** The following is the code for matrix_LU_factor()
 
 
-      def matrix_scal_mult(scalar,matrix):
-          for i in range(len(matrix)):
-              for j in range(len(matrix[0])):
-                  matrix[i][j] *= scalar
+      import copy
       
-          return matrix
+      def matrix_LU_factor(matrix):
+          n = len(matrix)
+          u_matrix = copy.deepcopy(matrix)
+          l_matrix = [[0 for i in range(n)] for j in range(n)]
+          for k in range(0,n):
+              for i in range(k+1, n):
+                  l_matrix[i][k] = u_matrix[i][k] / u_matrix[k][k]
+                  for j in range(k + 1, n):
+                      u_matrix[i][j] -= l_matrix[i][k]*u_matrix[k][j]
+          for i in range(n):
+              l_matrix[i][i] = 1.0
+          for i in range(1,n):
+              for j in range(0, i):
+                  u_matrix[i][j] = 0.0
+      
+          return [l_matrix,u_matrix]
 
