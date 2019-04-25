@@ -22,9 +22,9 @@ Below shows an example of a matrix with a length of 3 being QR factorized using 
 
       matrix_example = [[1,2,4],[0,0,5],[0,3,6]]
       matrix_new = matrix_QR_factorization(matrix_example)
-      for i in range(0,len(matrix_example)):
+      for i in range(0,len(matrix_new[0])):
           print(matrix_new[0][i])
-      for i in range(0,len(matrix_example)):
+      for i in range(0,len(matrix_new[1])):
           print(matrix_new[1][i])
 
 Output from the lines above:

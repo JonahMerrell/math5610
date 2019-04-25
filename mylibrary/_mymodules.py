@@ -1,5 +1,7 @@
 #Extra methods created
 from matrix_transpose import matrix_transpose
+from convert_vec_mat import convert_vec_mat
+
 
 #Methods created for class
 from abs_error import abs_error
@@ -43,3 +45,12 @@ from matrix_solve_least_square_normal import matrix_solve_least_square_normal
 from matrix_QR_factorization import matrix_QR_factorization
 from hilbert_matrix_QR_test import hilbert_matrix_QR_test
 from gen_sqr_diagdom_matrix import gen_sqr_diagdom_matrix
+
+
+from matrix_solve_QR_factorization import matrix_solve_QR_factorization
+from matrix_QR_factorization_mod import matrix_QR_factorization_mod
+from matrix_QR_factorization_householder import matrix_QR_factorization_householder
+from matrix_solve_least_squares_QR import matrix_solve_least_squares_QR
+from matrix_solve_least_squares_QR_householder import matrix_solve_least_squares_QR_householder
+from matrix_solve_jacobian import matrix_solve_jacobian
+from matrix_solve_gauss_seidel import matrix_solve_gauss_seidel

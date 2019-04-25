@@ -1,0 +1,10 @@
+10x10 Jacobian:     Time: 0.008000612258911133, Iteration Count: 92
+10x10 Gauss Seidel: Time: 0.0010001659393310547, Iteration Count: 8
+50x50 Jacobian:     Time: 0.7600436210632324, Iteration Count: 551
+50x50 Gauss Seidel: Time: 0.011000633239746094, Iteration Count: 8
+100x100 Jacobian:     Time: 5.782330513000488, Iteration Count: 1089
+100x100 Gauss Seidel: Time: 0.04300236701965332, Iteration Count: 8
+200x200 Jacobian:     Time: 57.803305864334106, Iteration Count: 2529
+200x200 Gauss Seidel: Time: 0.18601059913635254, Iteration Count: 8
+500x500 Jacobian:     Time: 879.7503190040588, Iteration Count: 5883
+500x500 Gauss Seidel: Time: 1.3440766334533691, Iteration Count: 9

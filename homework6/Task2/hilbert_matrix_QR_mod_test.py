@@ -2,8 +2,8 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       March 22 2019
-written for:        Homework5 Task8
+date written:       April 11 2019
+written for:        Homework6 Task2
 course:             Math 5610
 
 purpose:            This method tests the QR factorization method on various hilbert matrices.
@@ -11,9 +11,9 @@ purpose:            This method tests the QR factorization method on various hil
 
 import sys, os
 sys.path.append(os.path.abspath('../../mylibrary'))
-from _mymodules import matrix_QR_factorization, matrix_mult, matrix_transpose
+from _mymodules import matrix_QR_factorization_mod, matrix_mult, matrix_transpose
 
-def hilbert_matrix_QR_test():
+def hilbert_matrix_QR_mod_test():
 
     hilbert_matrix = [0]*11
     Q_matrix = [0]*11
@@ -21,7 +21,7 @@ def hilbert_matrix_QR_test():
     # Create the hilbert matrices and their corresponding Q factorization matrix.
     for n in range(1,11):
         hilbert_matrix[n] = [[1/(1+i+j) for i in range(n)] for j in range(n)]  # Hilbert Matrix generator
-        Q_matrix[n] = matrix_QR_factorization(hilbert_matrix[n])[0]
+        Q_matrix[n] = matrix_QR_factorization_mod(hilbert_matrix[n])[0]
 
     # Print the Q-factorized hilbert matrix, as well as Q^t*Q
     for i in range(4,11,2):  # 4, 6, 8, 10
@@ -36,4 +36,4 @@ def hilbert_matrix_QR_test():
 
         print()  # Print a new line for organization purposes.
 
-hilbert_matrix_QR_test()
+hilbert_matrix_QR_mod_test()
