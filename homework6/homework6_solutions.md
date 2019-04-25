@@ -65,7 +65,7 @@ For this task, we were asked to implement the Jacobi Iteration algorithm.
 
 After performing the jacobian algorithm on a 1000x1000 matrix, it took 9696 iterations and 6943.37 seconds.
 
-  ### Task 7
+### Task 7
 For this task, we were asked to implement the Gauss-Seidel algorithm.
 
 - Code:
