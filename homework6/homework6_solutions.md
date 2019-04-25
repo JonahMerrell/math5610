@@ -63,7 +63,9 @@ For this task, we were asked to implement the Jacobi Iteration algorithm.
 - Software Manual entry:
   - [matrix_solve_jacobian](../software_manual/matrix_solve_jacobian/matrix_solve_jacobian.md)
 
-### Task 7
+After performing the jacobian algorithm on a 1000x1000 matrix, it took 9696 iterations and 6943.37 seconds.
+
+  ### Task 7
 For this task, we were asked to implement the Gauss-Seidel algorithm.
 
 - Code:
@@ -72,6 +74,8 @@ For this task, we were asked to implement the Gauss-Seidel algorithm.
 - Software Manual entry:
   - [matrix_solve_gauss_seidel](../software_manual/matrix_solve_gauss_seidel/matrix_solve_gauss_seidel.md)
 
+After performing the Gauss-Seidel algorithm on a 1000x1000 matrix, it took 6 iterations and 4.25 seconds.
+  
 ### Task 8
 For this task, we were asked to compare the Jacobi and Gauss-Seidel in terms of the number of iterations needed to converge to a given tolerance.
 
@@ -88,9 +92,9 @@ This is because normal equations compute the least square solution to an overdet
 Thus, QR decomposition yields better results with less well-conditioned matrices.
 
 **Sources used:**
-https://www.cs.cornell.edu/~bindel/class/cs3220-s12/notes/lec10.pdf
-https://www.quora.com/Is-it-better-to-do-QR-Cholesky-or-SVD-for-solving-least-squares-estimate-and-why
-https://math.stackexchange.com/questions/2339079/qr-factorization-for-solving-least-squares
+- https://www.cs.cornell.edu/~bindel/class/cs3220-s12/notes/lec10.pdf
+- https://www.quora.com/Is-it-better-to-do-QR-Cholesky-or-SVD-for-solving-least-squares-estimate-and-why
+- https://math.stackexchange.com/questions/2339079/qr-factorization-for-solving-least-squares
 
 ### Task 10
 For this task, we were asked to do an internet search for sites that discuss the stability of various algorithms used in computing the QR factorization of both rectangular and square matrices.

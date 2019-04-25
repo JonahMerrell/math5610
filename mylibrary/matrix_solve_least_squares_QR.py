@@ -14,7 +14,7 @@ sys.path.append(os.path.abspath('../../mylibrary'))
 from _mymodules import matrix_QR_factorization_mod, matrix_solve_upper_tri, matrix_mult, matrix_transpose, convert_vec_mat
 
 
-def matrix_solve_least_square_QR(matrix,vector):
+def matrix_solve_least_squares_QR(matrix,vector):
     (matrix_Q, matrix_R) = matrix_QR_factorization_mod(matrix)
     matrix_Qtb = matrix_mult(matrix_transpose(matrix_Q), convert_vec_mat(vector))
     solution = matrix_solve_upper_tri(matrix_R, convert_vec_mat(matrix_Qtb))
@@ -23,6 +23,6 @@ def matrix_solve_least_square_QR(matrix,vector):
 #The code below is used just for testing.
 #matrix_example = [[6,5,4,3,2],[8,9,8,3,5],[1,3,4,6,8],[5,2,7,4,5],[7,3,8,5,8]]
 #vector_example = [12,25,38,27,48]
-#print(matrix_solve_least_square_QR(matrix_example,vector_example))
+#print(matrix_solve_least_squares_QR(matrix_example,vector_example))
 
 
