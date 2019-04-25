@@ -87,7 +87,7 @@ QR decomposition yields a better result than the normal equations, because altho
 This is because normal equations compute the least square solution to an overdetermined system of equations by computing A*AT. As far as the condition number of the system is concerned, this is essentially computing A2, which means that the condition number is squared. As a result, this causes the condition number of the problem to increase dramatically.<br>
 Thus, QR decomposition yields better results with less well-conditioned matrices.
 
-  **Sources used:**
+**Sources used:**
 https://www.cs.cornell.edu/~bindel/class/cs3220-s12/notes/lec10.pdf
 https://www.quora.com/Is-it-better-to-do-QR-Cholesky-or-SVD-for-solving-least-squares-estimate-and-why
 https://math.stackexchange.com/questions/2339079/qr-factorization-for-solving-least-squares

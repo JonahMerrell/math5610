@@ -6,7 +6,7 @@ date written:       April 11 2019
 written for:        Homework6 Task3
 course:             Math 5610
 
-purpose:            This method will find the solution of a matrix using a least squares technique with QR factorization.
+purpose:            This method will find the solution of a matrix using Householder Transformations for QR factorization.
 https://math.la.asu.edu/~gardner/QR.pdf
 '''
 
@@ -36,7 +36,6 @@ def matrix_QR_factorization_householder(matrix):
             h = i_
         matrix_Q = matrix_mult(matrix_Q,h)
         matrix_R = matrix_mult(h,matrix_R)
-    #matrix_R = matrix_R[:len(matrix_R[0])] #technically, R is a 3x3 matrix, since the 4th row is just 0s.
 
     return [matrix_Q, matrix_R]
 
