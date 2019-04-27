@@ -28,8 +28,6 @@ For the system Ax = b, A is a random, diagonally-dominant matrix, and b is vecto
 
 - Code:
   - [matrix_jacobian_gaussian_elimination_compare.py](Task1/matrix_jacobian_gaussian_elimination_compare.py)
-- Software Manual entry:
-  - [matrix_jacobian_gaussian_elimination_compare](../software_manual/matrix_jacobian_gaussian_elimination_compare/matrix_jacobian_gaussian_elimination_compare.md)
 
 ### Task 2
 For this task, we were asked to repeat the previous task using the Gauss-Seidel algorithm
@@ -47,12 +45,8 @@ For the system Ax = b, A is a random, diagonally-dominant matrix, and b is vecto
 
 From these results, we can see that at first, the Gauss Seidel iteration is slower than gaussian elimination. However, for matrices of larger sizes, the Gauss Seidel iteration becomes much faster than gaussian elimination. (the intersection happens with matrices between sizes 50 and 100).
 
-
 - Code:
   - [matrix_guass_seidel_gaussian_elimination_compare.py](Task2/matrix_guass_seidel_gaussian_elimination_compare.py)
-  - [hilbert_matrix_QR_mod_test.py](Task2/hilbert_matrix_QR_mod_test.py)
-- Software Manual entry:
-  - [matrix_guass_seidel_gaussian_elimination_compare](../software_manual/matrix_guass_seidel_gaussian_elimination_compare/matrix_guass_seidel_gaussian_elimination_compare.md)
 
 ### Task 3
 For this task, we were asked to implement the steepest descent method for solving linear systems of equations
@@ -77,8 +71,6 @@ still hadnt achieved precision within 10E-3 with the 8x8, 16x16, and 32x32 hilbe
 
 - Code:
   - [hilbert_matrix_steepest_descent_test.py](Task4/hilbert_matrix_steepest_descent_test.py)
-- Software Manual entry:
-  - [hilbert_matrix_steepest_descent_test](../software_manual/hilbert_matrix_steepest_descent_test/hilbert_matrix_steepest_descent_test.md)
 
 ### Task 5
 For this task, we were asked to implement the Conjugate Gradient method.
@@ -106,8 +98,6 @@ I suspect doing additional iterations will not help these matrices converge any 
 - Code:
   - [hilbert_matrix_conjugate_gradient_test.py](Task6/hilbert_matrix_conjugate_gradient_test.py)
   - [matrix_solve_jacobian_test.py](Task6/matrix_solve_jacobian_test.py)
-- Software Manual entry:
-  - [hilbert_matrix_conjugate_gradient_test](../software_manual/hilbert_matrix_conjugate_gradient_test/hilbert_matrix_conjugate_gradient_test.md)
 
 ### Task 7
 For this task, we were asked to do an internet search on the use of iterative methods for the solution of linear systems of equations that do not use preconditioning of the system. 
@@ -148,8 +138,6 @@ For the system Ax = b, A is a random, diagonally-dominant matrix, and b is vecto
 
 - Code:
   - [matrix_jacobian_conjugate_gradient_compare.py](Task9/matrix_jacobian_conjugate_gradient_compare.py)
-- Software Manual entry:
-  - [matrix_jacobian_conjugate_gradient_compare](../software_manual/matrix_jacobian_conjugate_gradient_compare/matrix_jacobian_conjugate_gradient_compare.md)
 
 ### Task 10
 For this task, we were asked to describe an algorithm for computing the solution of linear least squares systems using Jacobi iteration. Create an entry in your software manual for your algorihm and an example.

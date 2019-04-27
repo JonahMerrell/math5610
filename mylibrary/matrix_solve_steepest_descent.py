@@ -32,9 +32,8 @@ def matrix_solve_steepest_descent(matrix,vector_b,tol,max_iter):
 
 
 # The code below is used just for testing.
-#matrix_example = [[5, 1, 2], [1, 4, 1], [2, 2, 5]]
+#matrix_example = [[5, 1, 2], [1, 4, 1], [2, 1, 5]]
 #vector_example = [1, 2, 3]
-#print(matrix_solve_steepest_descent(matrix_example, vector_example, 0.00001, 40))#print(matrix_solve(matrix_example,vector_example))
-
+#print(matrix_solve_steepest_descent(matrix_example, vector_example, 0.00001, 40))
 
 

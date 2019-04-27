@@ -57,3 +57,4 @@ from matrix_solve_gauss_seidel import matrix_solve_gauss_seidel
 
 from matrix_solve_steepest_descent import matrix_solve_steepest_descent
 from matrix_solve_conjugate_gradient import matrix_solve_conjugate_gradient
+from matrix_solve_jacobian_smart import matrix_solve_jacobian_smart

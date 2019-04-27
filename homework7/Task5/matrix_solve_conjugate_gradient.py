@@ -2,8 +2,8 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       April 12 2019
-written for:        Homework6 Task4
+date written:       April 26 2019
+written for:        Homework7 Task5
 course:             Math 5610
 
 purpose:            This method will find the solution of a matrix using QR factorization (modified gram schmidt) and back substitution
