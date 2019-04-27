@@ -14,7 +14,7 @@ sys.path.append(os.path.abspath('../../mylibrary'))
 from _mymodules import vector_add, vector_scal_mult, matrix_mult, convert_vec_mat, vector_2norm, vector_dot
 
 
-def matrix_solve_conjugate_gradient(matrix,vector_b,tol,max_iter):
+def matrix_solve_conjugate_gradient(matrix,vector_b,tol,max_iter,getIterCount=False):
     error = tol * 10
     count = 0
     x_i = vector_b.copy()  # x_0
@@ -32,7 +32,10 @@ def matrix_solve_conjugate_gradient(matrix,vector_b,tol,max_iter):
         direction = vector_add(residual,vector_scal_mult(d1new/d1old,direction))
         count += 1
         error = vector_2norm(residual)
-    return x_i
+    if getIterCount == True:
+        return x_i, count
+    else:
+        return x_i
 
 #The code below is used just for testing.
 #matrix_example = [[5, 1, 2], [1, 4, 1], [2, 1, 5]]

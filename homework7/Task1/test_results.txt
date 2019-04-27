@@ -1,0 +1,12 @@
+10x10 Jacobian:               Time: 0.009000539779663086, Iteration Count: 84
+10x10 Gaussian elimination:   Time: 0.0
+50x50 Jacobian:               Time: 0.718041181564331, Iteration Count: 493
+50x50 Gaussian elimination:   Time: 0.027001380920410156
+100x100 Jacobian:             Time: 6.035345077514648, Iteration Count: 1121
+100x100 Gaussian elimination: Time: 0.18101048469543457
+200x200 Jacobian:             Time: 50.7739040851593, Iteration Count: 2215
+200x200 Gaussian elimination: Time: 1.425081491470337
+500x500 Jacobian:             Time: 940.8208117485046, Iteration Count: 6210
+500x500 Gaussian elimination: Time: 24.452398538589478
+
+For the system Ax = b, A is a random, diagonally-dominant matrix, and b is vector of just ones. The solution for the jacobian routine is calculated within a tolerance of 10E-4. Gaussian elimination found the solution much more efficiently and quickly than the jacobian iteration.

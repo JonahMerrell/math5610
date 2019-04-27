@@ -9,3 +9,4 @@
 - [Homework4](homework4/homework4_solutions)
 - [Homework5](homework5/homework5_solutions)
 - [Homework6](homework6/homework6_solutions)
+- [Homework7](homework7/homework7_solutions)

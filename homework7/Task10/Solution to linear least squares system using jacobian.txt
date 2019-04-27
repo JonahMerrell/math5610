@@ -1,0 +1,19 @@
+Given a system: Ax = b
+
+Step 1: Convert Ax = b into normal equations:
+
+A^t A x = A^t b
+
+Step 2: convert into a diagnally dominant system
+
+(A^t A + alpha I)x = A^t b + alpha I x
+
+Step 3: convert into a jacobian iteration\
+
+((L + D + U)_AtA + alpha I)x = A^t b + alpha I x
+(D_AtA + alpha I)x_k+1 = A^t b + alpha I x_k - (L + U)_AtA x_k
+
+Step 4: Divide (invert) the matrix to solve for x_k+1
+
+x_k+1 = A^t b + alpha I x_k - (L + U)_AtA x_k/(D_AtA + alpha I)
+

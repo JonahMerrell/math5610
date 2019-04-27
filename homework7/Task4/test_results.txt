@@ -1,0 +1,16 @@
+Absolute error for 4x4: 0.00936328110116874
+Absolute error for 8x8: 0.019397843460630233
+Absolute error for 16x16: 0.028439532221195527
+Absolute error for 32x32: 0.03835244472187219
+
+for n=4
+
+190645 iterations
+x error: 1.8340400485982836e-13
+[-3.9999999999728866, 59.999999999695596, -179.999999999267, 139.9999999995235]
+b error: 1.7527520957889934e-13
+
+After testing the steepest descent method on the hilbert matrix for vearious sizes, I found that after 10000 iterations, the hilbert matrices still hadnt converged,
+with the exception of the 4x4 hilbert matrix, which converged after 190645 iterations to an accuracy of 10E-13. After 10000 iterations, the steepest descent method 
+still hadnt achieved precision within 10E-3 with the 8x8, 16x16, and 32x32 hilbert matrices
+

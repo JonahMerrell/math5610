@@ -1,0 +1,14 @@
+10x10 Guess Seidel:         Time: 0.002000093460083008, Iteration Count: 21
+10x10 Gaussian elimination: Time: 0.0010001659393310547
+50x50 Guess Seidel:         Time: 0.031001806259155273, Iteration Count: 21
+50x50 Gaussian elimination: Time: 0.026001453399658203
+100x100 Guess Seidel:         Time: 0.11700654029846191, Iteration Count: 21
+100x100 Gaussian elimination: Time: 0.18001055717468262
+200x200 Guess Seidel:         Time: 0.5170297622680664, Iteration Count: 22
+200x200 Gaussian elimination: Time: 1.429081916809082
+500x500 Guess Seidel:         Time: 3.326190233230591, Iteration Count: 22
+500x500 Gaussian elimination: Time: 24.00237274169922
+
+For the system Ax = b, A is a random, diagonally-dominant matrix, and b is vector of just ones. The solution for the gauss seidel routine is calculated within a tolerance of 10E-13.
+
+From these results, we can see that at first, the Gauss Seidel iteration is slower than gaussian elimination. However, for matrices of larger sizes, the Gauss Seidel iteration becomes much faster than gaussian elimination. (the intersection happens with matrices between sizes 50 and 100).
