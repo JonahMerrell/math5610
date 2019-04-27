@@ -3,8 +3,8 @@ Absolute error for 8x8: 3.478735173090693e-05
 Absolute error for 16x16: 3.958614365459533e-05
 Absolute error for 32x32: 4.169006711096079e-05
 
-After testing the conjugate method for various precisions on the hilbert matrix for various sizes, I found that changing the tolerance of the iteration radicaly changed the result by far more than the tolrance change. I suspect that the hilbert mnatrix never converges. However, despite running the program for e-10 precision, the 8x8,16x16, and 32x32 matrices had only achieved e-5.
+After testing the conjugate method for various precisions on the hilbert matrix for various sizes, I found that changing the tolerance of the iteration radicaly changed the result by far more than the tolerance change. I suspect that the hilbert matrix never converges. Despite running the program for e-10 precision, the 8x8,16x16, and 32x32 matrices had only achieved e-5.
 
-Since testing for 10000 iterations didnt acheive e-10 precision, I tried testing the conjugate gradient method for 100000 iterations, to hopefully allow the computer more time to compute a solution to greater accuracy. Sadly, despite adding 10 times more iterations, the solutions for all 4 matrices I tested didnt increase in their precision (With the minor exception of the 16x16 matrix, which did increase in accuracy by 2 digits of precision).
+Since testing for 10000 iterations didnt acheive e-10 precision, I tried testing the conjugate gradient method for 100000 iterations, to hopefully allow the computer more time to compute a solution to greater accuracy. Sadly, despite adding 10 times more iterations, the solutions for all 4 matrices I tested didnt increase in their precision.
 
 I suspect doing additional iterations does not help these matrices converge.

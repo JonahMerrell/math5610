@@ -16,6 +16,16 @@
 ### Task 1
 For this task, we were asked to compare the results for the Jacobi iteration and Gaussian elimination on matrices that are diagonally dominant.
 
+| Matrix |    Jacobian        |     Jacobian       |Gaussian elimination|
+|        |  Iteration Count   |        Time        |        Time        |
+| 10x10  | 84				  | 0.009000  		   |      0.001000      |
+| 50x50  | 493				  | 0.718041  		   |      0.027001      |
+|100x100 | 1121				  | 6.035345  		   |      0.181010      |
+|200x200 | 2215				  | 50.77390  	       |      1.425081      |
+|500x500 | 6210			      | 940.8208  		   |      24.45239      |
+
+For the system Ax = b, A is a random, diagonally-dominant matrix, and b is vector of just ones. The solution for the jacobian routine is calculated within a tolerance of 10E-4. Gaussian elimination found the solution much more efficiently and quickly than the jacobian iteration.
+
 - Code:
   - [matrix_jacobian_gaussian_elimination_compare.py](Task1/matrix_jacobian_gaussian_elimination_compare.py)
 - Software Manual entry:
@@ -23,6 +33,20 @@ For this task, we were asked to compare the results for the Jacobi iteration and
 
 ### Task 2
 For this task, we were asked to repeat the previous task using the Gauss-Seidel algorithm
+
+| Matrix |    Guess Seidel    |     Guess Seidel   |Gaussian elimination|
+|        |  Iteration Count   |        Time        |        Time        |
+| 10x10  | 21				  | 0.002000  		   |      0.001000      |
+| 50x50  | 21				  | 0.031001  		   |      0.026001      |
+|100x100 | 21				  | 0.117006  		   |      0.180010      |
+|200x200 | 22				  | 0.517029  	       |      1.429081      |
+|500x500 | 22			      | 3.326190  		   |      24.00237      |
+
+
+For the system Ax = b, A is a random, diagonally-dominant matrix, and b is vector of just ones. The solution for the gauss seidel routine is calculated within a tolerance of 10E-13.
+
+From these results, we can see that at first, the Gauss Seidel iteration is slower than gaussian elimination. However, for matrices of larger sizes, the Gauss Seidel iteration becomes much faster than gaussian elimination. (the intersection happens with matrices between sizes 50 and 100).
+
 
 - Code:
   - [matrix_guass_seidel_gaussian_elimination_compare.py](Task2/matrix_guass_seidel_gaussian_elimination_compare.py)
@@ -40,6 +64,16 @@ For this task, we were asked to implement the steepest descent method for solvin
 
 ### Task 4
 For this task, we were asked to try out your steepest descent method on Hilbert matrices of size 4, 8, 16, 32. Explain your results. 
+
+| Hilbert Matrix | Descent Method Error |
+| 4x4            | 0.009363		        |
+| 8x8            | 0.019397		        |
+| 16x16          | 0.028439		        |
+| 32x32          | 0.038352	            |
+
+After testing the steepest descent method on the hilbert matrix for vearious sizes, I found that after 10000 iterations, the hilbert matrices still hadnt converged,
+with the exception of the 4x4 hilbert matrix, which converged after 190645 iterations to an accuracy of 1.7527E-13. After 10000 iterations, the steepest descent method 
+still hadnt achieved precision within 10E-3 with the 8x8, 16x16, and 32x32 hilbert matrices
 
 - Code:
   - [hilbert_matrix_steepest_descent_test.py](Task4/hilbert_matrix_steepest_descent_test.py)
@@ -63,9 +97,9 @@ For this task, we were asked to try out the conjugate gradient method from the p
 | 16x16          | 3.95861e-05		        |
 | 32x32          | 4.16900e-05		        |
 
-After testing the conjugate method for various precisions on the hilbert matrix for various sizes, I found that changing the tolerance of the iteration radicaly changed the result by far more than the tolrance change. I suspect that the hilbert mnatrix never converges. However, despite running the program for e-10 precision, the 8x8,16x16, and 32x32 matrices had only achieved e-5.
+After testing the conjugate method for various precisions on the hilbert matrix for various sizes, I found that changing the tolerance of the iteration radicaly changed the result by far more than the tolerance change. I suspect that the hilbert matrix never converges. Despite running the program for e-10 precision, the 8x8,16x16, and 32x32 matrices had only achieved e-5.
 
-Since testing for 10000 iterations didnt acheive e-10 precision, I tried testing the conjugate gradient method for 100000 iterations, to hopefully allow the computer more time to compute a solution to greater accuracy. Sadly, despite adding 10 times more iterations, the solutions for all 4 matrices I tested didnt increase in their precision (With the minor exception of the 16x16 matrix, which did increase in accuracy by 2 digits of precision).
+Since testing for 10000 iterations didnt acheive e-10 precision, I tried testing the conjugate gradient method for 100000 iterations, to hopefully allow the computer more time to compute a solution to greater accuracy. Sadly, despite adding 10 times more iterations, the solutions for all 4 matrices I tested didnt increase in their precision.
 
 I suspect doing additional iterations will not help these matrices converge any further.
 
@@ -74,8 +108,6 @@ I suspect doing additional iterations will not help these matrices converge any 
   - [matrix_solve_jacobian_test.py](Task6/matrix_solve_jacobian_test.py)
 - Software Manual entry:
   - [hilbert_matrix_conjugate_gradient_test](../software_manual/hilbert_matrix_conjugate_gradient_test/hilbert_matrix_conjugate_gradient_test.md)
-
-After performing the jacobian algorithm on a 1000x1000 matrix, it took 9696 iterations and 6943.37 seconds.
 
 ### Task 7
 For this task, we were asked to do an internet search on the use of iterative methods for the solution of linear systems of equations that do not use preconditioning of the system. 
