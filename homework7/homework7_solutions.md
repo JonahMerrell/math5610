@@ -57,6 +57,18 @@ For this task, we were asked to implement the Conjugate Gradient method.
 ### Task 6
 For this task, we were asked to try out the conjugate gradient method from the previous task on Hilbert matrices of order 4, 8, 16, and 32.
 
+| Hilbert Matrix | Conjugate-Gradiant Error |
+| 4x4            | 6.05644e-10		        |
+| 8x8            | 3.47873e-05		        |
+| 16x16          | 3.95861e-05		        |
+| 32x32          | 4.16900e-05		        |
+
+After testing the conjugate method for various precisions on the hilbert matrix for various sizes, I found that changing the tolerance of the iteration radicaly changed the result by far more than the tolrance change. I suspect that the hilbert mnatrix never converges. However, despite running the program for e-10 precision, the 8x8,16x16, and 32x32 matrices had only achieved e-5.
+
+Since testing for 10000 iterations didnt acheive e-10 precision, I tried testing the conjugate gradient method for 100000 iterations, to hopefully allow the computer more time to compute a solution to greater accuracy. Sadly, despite adding 10 times more iterations, the solutions for all 4 matrices I tested didnt increase in their precision (With the minor exception of the 16x16 matrix, which did increase in accuracy by 2 digits of precision).
+
+I suspect doing additional iterations will not help these matrices converge any further.
+
 - Code:
   - [hilbert_matrix_conjugate_gradient_test.py](Task6/hilbert_matrix_conjugate_gradient_test.py)
   - [matrix_solve_jacobian_test.py](Task6/matrix_solve_jacobian_test.py)
@@ -66,25 +78,34 @@ For this task, we were asked to try out the conjugate gradient method from the p
 After performing the jacobian algorithm on a 1000x1000 matrix, it took 9696 iterations and 6943.37 seconds.
 
 ### Task 7
-For this task, we were asked to do an internet search on the use of iterative methods for the solution of linear systems of equations. 
+For this task, we were asked to do an internet search on the use of iterative methods for the solution of linear systems of equations that do not use preconditioning of the system. 
 
+**Jacobian Iteration**
+- https://en.wikipedia.org/wiki/Jacobi_method
 
+**Gauss-Seidel iteration**
+- https://en.wikipedia.org/wiki/Gauss%E2%80%93Seidel_method
 
-
-
+**Modified Richardson iteration**
+- https://en.wikipedia.org/wiki/Modified_Richardson_iteration
 
 ### Task 8
 For this task, we were asked to look for internet sites that include descriptions of preconditioning of systems of equations.
 
+Various pre-conditioning methods include:<br>
+Linear preconditioning, Jacobi preconditioner, incomplete LU factorization, Spectral transformations
 
-
-
+**Sources used:**
+- http://www.mathcs.emory.edu/~benzi/Web_papers/survey.pdf 
+- http://people.maths.ox.ac.uk/wathen/preconditioning.pdf 
+- https://en.wikipedia.org/wiki/Preconditioner
+- http://www.netlib.org/utk/people/JackDongarra/etemplates/node396.html
 
 ### Task 9
 For this task, we were asked to compare results on symmetric positive definite linear systems of equations using Jacobi versus the conjugate gradient methods. 
 
 | Matrix | Jacobian Iteration | Conjugate Gradient | Jacobian Iteration | Conjugate Gradient |
-| :----: |  Iteration Count   | Iteration Count    |        Time        |        Time        |
+|        |  Iteration Count   | Iteration Count    |        Time        |        Time        |
 | 10x10  | 116				  | 27  			   |     0.011000       |      0.002000      |
 | 50x50  | 516				  | 10  			   |     0.734041       |      0.008000      |
 |100x100 | 1167				  | 9  			       |     6.196354       |      0.026001      |
@@ -113,7 +134,7 @@ Step 2: Convert into a diagnally dominant system:
 
 Step 3: Convert into a jacobian iteration:
 
-((L + D + U)_AtA + alpha I)x = A^t b + alpha I x
+((L + D + U)_AtA + alpha I)x = A^t b + alpha I x<bk>
 (D_AtA + alpha I)x_k+1 = A^t b + alpha I x_k - (L + U)_AtA x_k
 
 Step 4: Divide (invert) the matrix to solve for x_k+1
