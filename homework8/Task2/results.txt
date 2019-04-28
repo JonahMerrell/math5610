@@ -1,0 +1,4 @@
+Smallest Eigenvalue for 4x4: 9.67023040226009e-05
+Smallest Eigenvalue for 6x6: 1.0827994843804134e-07
+Smallest Eigenvalue for 8x8: 1.1115389399118227e-10
+Smallest Eigenvalue for 10x10: 1.0932741624186234e-13

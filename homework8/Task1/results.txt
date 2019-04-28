@@ -1,0 +1,4 @@
+Largest Eigen Value for 4x4: 1.5002142800562148
+Largest Eigen Value for 6x6: 1.618899858921705
+Largest Eigen Value for 8x8: 1.6959389968932237
+Largest Eigen Value for 10x10: 1.7519196702597382

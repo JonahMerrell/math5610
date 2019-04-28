@@ -1,0 +1,4 @@
+Condition number for 4x4: 15513.73873892994
+Condition number for 6x6: 14951058.642686993
+Condition number for 8x8: 15257576104.851519
+Condition number for 10x10: 16024522763706.78

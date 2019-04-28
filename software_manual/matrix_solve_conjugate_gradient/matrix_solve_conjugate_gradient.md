@@ -8,7 +8,7 @@
 
 **Language:** Python 3.7.0
 
-**Description/Purpose:** This routine will compute the solution of a square linear system of equations. (The system is of the form Ax = b)
+**Description/Purpose:** This routine will compute the solution of a square linear system of equations. (The system is of the form Ax = b).
 The solution is calculated by the conjugate gradient iteration. The intial guess (x_0) to start off our iteration is arbitrarily chosen to be the b vector.
 
 **Input:** argument1: The matrix "A" in the system of linear equations Ax = b<br>

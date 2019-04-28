@@ -8,7 +8,7 @@
 
 **Language:** Python 3.7.0
 
-**Description/Purpose:** This routine will compute the solution of a square linear system of equations. (The system is of the form Ax = b)
+**Description/Purpose:** This routine will compute the solution of a square linear system of equations. (The system is of the form Ax = b).
 The solution is calculated by the jacobian iteration. The intial guess (x_0) to start off our iteration is arbitrarily chosen to be the 0 vector.
 This method is more robust than the traditional jacobian iteration, because this routine will solve the least sqaures system of the matrix A. 
 Additionally, the resulting least sqaures system is modified to be garinteed to be diagonaly dominant (Which garintees that the jacobian iteration will converge).

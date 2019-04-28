@@ -37,9 +37,8 @@ The above matrix printed is the 5 times greater then the original matrix provide
 
 
       def matrix_scal_mult(scalar,matrix):
-          for i in range(len(matrix)):
-              for j in range(len(matrix[0])):
-                  matrix[i][j] *= scalar
+          matrix_new = [[scalar*matrix[j][i] for i in range(len(matrix[0]))] for j in range(len(matrix))]
       
-          return matrix
+          return matrix_new
+
 
