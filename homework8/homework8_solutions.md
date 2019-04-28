@@ -130,15 +130,6 @@ A third method sometimes used is based on hager’s method. This method can esti
 ### Task 9
 For this task, we were asked to Compare the Inverse Iteration Algorithm and the Rayleigh Quotient Algorithm in terms of the amount of time needed to compute an eigenvalue.
 
-10x10 Inverse_Power: Time: 0.039002418518066406, Iteration Count: 72
-10x10 Rayleigh Quotient: Time: 0.003000020980834961, Iteration Count: 6
-50x50 Inverse_Power: Time: 0.9680554866790771, Iteration Count: 46
-50x50 Rayleigh Quotient: Time: 0.10900616645812988, Iteration Count: 5
-100x100 Inverse_Power: Time: 21.25821566581726, Iteration Count: 150
-100x100 Rayleigh Quotient: Time: 1437.0341939926147, Iteration Count: 10000
-200x200 Inverse_Power: Time: 265.8172039985657, Iteration Count: 248
-200x200 Rayleigh Quotient: Time: 5.532316446304321, Iteration Count: 5
-
 | Matrix | Inverse Power      | Rayleigh Quotient  | Inverse Power      | Rayleigh Quotient    |
 |        |  Iteration Count   | Iteration Count    |        Time        |        Time          |
 | 10x10  | 72				  | 6  			       | 0.0390024185180664 | 0.003000020980834961 |
