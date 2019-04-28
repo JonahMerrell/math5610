@@ -113,9 +113,9 @@ This algorithm for computing an aproximation for the condition number of a matri
 ### Task 8
 For this task, we were asked to look for internet sites that estimate the condition number of a matrix.
 
-There are many ways to approximate the condition number of a matrix. The official formula is ||A||*||A^-1||, however computing this formula is not generally used since computing ||A^-1|| would essentially already solve the problem.<bk>
-One method for approximating the condition number of a matrix is to compute the largest and smallest eigenvector of A, and then compute |λmax|/| λmin|.<bk>
-Another method used to approximate the condition number is simply to approximate the norms of A and A^-1, and then use these estimates directly in the actual formula ||A||*||A^-1||. A common method used to approximate the norms of A is b singular value decomposition.<bk>
+There are many ways to approximate the condition number of a matrix. The official formula is ||A||*||A^-1||, however computing this formula is not generally used since computing ||A^-1|| would essentially already solve the problem.<br>
+One method for approximating the condition number of a matrix is to compute the largest and smallest eigenvector of A, and then compute |λmax|/| λmin|.<br>
+Another method used to approximate the condition number is simply to approximate the norms of A and A^-1, and then use these estimates directly in the actual formula ||A||*||A^-1||. A common method used to approximate the norms of A is b singular value decomposition.<br>
 A third method sometimes used is based on hager’s method. This method can estimate the 1-norm for the matrix A and A^-1, and once again these estimates directly used in the actual formula ||A||*||A^-1||.
 
 **Sources used:**
