@@ -59,8 +59,6 @@ In the example above, the matrix representing "A" in the system "Ax = b" had a w
                       xnew[i] = xnew[i] - matrix[i][j]*xold[j]
                   xnew[i] = xnew[i] / matrix[i][i]
                   xold[i] = xnew[i]
-              #for j in range(len(xnew)):
-              #    xnew[j] = xnew[j] / matrix[j][j]
               error = vector_2norm(vector_add(convert_vec_mat(matrix_mult(matrix,convert_vec_mat(xnew))),vector_scal_mult(-1,vector_b)))
           if getIterCount == True:
               return xnew,count

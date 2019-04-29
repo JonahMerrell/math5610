@@ -16,13 +16,19 @@ from _mymodules import matrix_QR_factorization_mod, matrix_solve_upper_tri, matr
 
 def matrix_solve_least_squares_QR(matrix,vector):
     (matrix_Q, matrix_R) = matrix_QR_factorization_mod(matrix)
+    print(matrix_Q)
+    print(matrix_R)
     matrix_Qtb = matrix_mult(matrix_transpose(matrix_Q), convert_vec_mat(vector))
+    print(matrix_Qtb)
     solution = matrix_solve_upper_tri(matrix_R, convert_vec_mat(matrix_Qtb))
+    print(solution)
     return solution
 
 #The code below is used just for testing.
 #matrix_example = [[6,5,4,3,2],[8,9,8,3,5],[1,3,4,6,8],[5,2,7,4,5],[7,3,8,5,8]]
 #vector_example = [12,25,38,27,48]
 #print(matrix_solve_least_squares_QR(matrix_example,vector_example))
-
+#matrix_example = [[2,-1],[1,2],[1,1]]
+#vector_example = [2,1,4]
+#print(matrix_solve_least_squares_QR(matrix_example,vector_example))
 

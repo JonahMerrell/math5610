@@ -16,7 +16,6 @@ from _mymodules import vector_dot, vector_scal_mult, vector_add, vector_2norm, m
 def matrix_QR_factorization_mod(matrix):
 
     u_vectors = [[matrix[i][j] for i in range(len(matrix))] for j in range(len(matrix[0]))]
-    print(u_vectors)
     for j in range(len(matrix[0])):
         for i in range(j):
             u_vectors[j] = vector_add(u_vectors[j],vector_scal_mult(-1 * vector_dot(u_vectors[j], u_vectors[i]), u_vectors[i]))

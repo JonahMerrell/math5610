@@ -30,8 +30,6 @@ def matrix_solve_gauss_seidel(matrix,vector_b,tol,max_iter,getIterCount=False):
                 xnew[i] = xnew[i] - matrix[i][j]*xold[j]
             xnew[i] = xnew[i] / matrix[i][i]
             xold[i] = xnew[i]
-        #for j in range(len(xnew)):
-        #    xnew[j] = xnew[j] / matrix[j][j]
         error = vector_2norm(vector_add(convert_vec_mat(matrix_mult(matrix,convert_vec_mat(xnew))),vector_scal_mult(-1,vector_b)))
     if getIterCount == True:
         return xnew,count
@@ -39,8 +37,8 @@ def matrix_solve_gauss_seidel(matrix,vector_b,tol,max_iter,getIterCount=False):
         return xnew
 
 #The code below is used just for testing.
-#matrix_example = [[5,1,2],[1,4,1],[2,2,5]]
-#vector_example = [1,2,3]
-#print(matrix_solve_gauss_seidel(matrix_example,vector_example,0.00001,40))
+matrix_example = [[5,1,2],[1,4,1],[2,2,5]]
+vector_example = [1,2,3]
+print(matrix_solve_gauss_seidel(matrix_example,vector_example,0.00001,40))
 
 
