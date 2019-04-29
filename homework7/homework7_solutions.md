@@ -97,7 +97,6 @@ I suspect doing additional iterations will not help these matrices converge any 
 
 - Code:
   - [hilbert_matrix_conjugate_gradient_test.py](Task6/hilbert_matrix_conjugate_gradient_test.py)
-  - [matrix_solve_jacobian_test.py](Task6/matrix_solve_jacobian_test.py)
 
 ### Task 7
 For this task, we were asked to do an internet search on the use of iterative methods for the solution of linear systems of equations that do not use preconditioning of the system. 
