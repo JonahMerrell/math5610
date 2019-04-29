@@ -70,7 +70,7 @@ For this task, we were asked to implement a method that will compute the 1-norm 
 For this task, we were asked to implement a method that will compute the ∞-norm of an arbitrary vector will real number entries.
 
 - Code:
-  - [vector_infnorm.py](Task8/vector_norm_inf.py)
+  - [vector_infnorm.py](Task8/vector_infnorm.py)
 - Software Manual entry:
   - [vector_infnorm](../software_manual/vector_infnorm/vector_infnorm.md)
 
