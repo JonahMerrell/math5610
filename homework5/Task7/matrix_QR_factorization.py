@@ -28,11 +28,11 @@ def matrix_QR_factorization(matrix):
 
 #The code below is used just for testing.
 #matrix_example = [[1,2,4],[0,0,5],[0,3,6]]
-matrix_example = [[1,-1,4],[1,4,-2],[1,4,2],[1,-1,0]]
-matrix_new = matrix_QR_factorization(matrix_example)
-for i in range(0,len(matrix_new[0])):
-    print(matrix_new[0][i])
-for i in range(0,len(matrix_new[1])):
-    print(matrix_new[1][i])
+#matrix_example = [[1,-1,4],[1,4,-2],[1,4,2],[1,-1,0]]
+#matrix_new = matrix_QR_factorization(matrix_example)
+#for i in range(0,len(matrix_new[0])):
+#    print(matrix_new[0][i])
+#for i in range(0,len(matrix_new[1])):
+#    print(matrix_new[1][i])
 
 

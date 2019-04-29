@@ -32,10 +32,12 @@
 - [matrix_mult](matrix_mult/matrix_mult.md)
 - [matrix_LU_factor](matrix_LU_factor/matrix_LU_factor.md)
 - [matrix_QR_factorization](matrix_QR_factorization/matrix_QR_factorization.md)
+- [matrix_QR_factorization_mod](matrix_QR_factorization_mod/matrix_QR_factorization_mod.md)
+- [matrix_QR_factorization_householder](matrix_QR_factorization_householder/matrix_QR_factorization_householder.md)
 - [matrix_cholesky_fac](matrix_cholesky_fac/matrix_cholesky_fac.md)
 - [hilbert_matrix_QR_test](hilbert_matrix_QR_test/hilbert_matrix_QR_test.md)
 
-### Matrix System Solvers
+### Matrix Direct System Solvers
 - [matrix_solve_diagonal](matrix_solve_diagonal/matrix_solve_diagonal.md)
 - [matrix_solve_upper_tri](matrix_solve_upper_tri/matrix_solve_upper_tri.md)
 - [matrix_solve_lower_tri](matrix_solve_lower_tri/matrix_solve_lower_tri.md)
@@ -43,6 +45,26 @@
 - [matrix_solve_least_square](matrix_solve_least_square/matrix_solve_least_square.md)
 - [matrix_solve_least_square_normal](matrix_solve_least_square_normal/matrix_solve_least_square_normal.md)
 - [matrix_solve_LU](matrix_solve_LU/matrix_solve_LU.md)
+- [matrix_solve_QR_factorization](matrix_solve_QR_factorization/matrix_solve_QR_factorization.md)
+- [matrix_solve_least_squares_QR](matrix_solve_least_squares_QR/matrix_solve_least_squares_QR.md)
+- [matrix_solve_least_squares_QR_householder](matrix_solve_least_squares_QR_householder/matrix_solve_least_squares_QR_householder.md)
+
+### Matrix Iteritive System Solvers
+- [matrix_solve_jacobian](matrix_solve_jacobian/matrix_solve_jacobian.md)
+- [matrix_solve_gauss_seidel](matrix_solve_gauss_seidel/matrix_solve_gauss_seidel.md)
+- [matrix_solve_steepest_descent](matrix_solve_steepest_descent/matrix_solve_steepest_descent.md)
+- [matrix_solve_conjugate_gradient](matrix_solve_conjugate_gradient/matrix_solve_conjugate_gradient.md)
+- [matrix_solve_jacobian_smart](matrix_solve_jacobian_smart/matrix_solve_jacobian_smart.md)
+
+### Eigenvalue Methods
+- [matrix_power_iteration](matrix_power_iteration/matrix_power_iteration.md)
+- [matrix_inverse_power_iteration](matrix_inverse_power_iteration/matrix_inverse_power_iteration.md)
+- [matrix_condition_number](matrix_condition_number/matrix_condition_number.md)
+- [matrix_find_eigenvalues](matrix_find_eigenvalues/matrix_find_eigenvalues.md)
+- [matrix_rayleigh_quotient_iteration](matrix_rayleigh_quotient_iteration/matrix_rayleigh_quotient_iteration.md)
+- [matrix_condition_number_rayleigh_quotient](matrix_condition_number_rayleigh_quotient/matrix_condition_number_rayleigh_quotient.md)
+
+
 
 ### Random Matrix Generators
 - [gen_sym_matrix](gen_sym_matrix/gen_sym_matrix.md)
