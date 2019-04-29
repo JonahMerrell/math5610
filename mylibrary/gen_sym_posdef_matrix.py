@@ -14,8 +14,9 @@ import sys, os
 sys.path.append(os.path.abspath('../../mylibrary'))
 from _mymodules import matrix_mult
 
-def gen_sym_posdef_matrix():
-    width = int(input("Please enter the width of the symmetric, positive definite matrix: "))
+def gen_sym_posdef_matrix(width=0):
+    if width == 0:
+        width = int(input("Please enter the width of the symmetric, positive definite matrix: "))
     A = [[0 for i in range(width)] for j in range(width)]
     for i in range(0, width):
         for j in range(0, width):

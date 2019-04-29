@@ -13,12 +13,13 @@ import sys, os
 import time
 
 sys.path.append(os.path.abspath('../../mylibrary'))
-from _mymodules import matrix_solve, matrix_solve_jacobian, gen_sqr_diagdom_matrix
+from _mymodules import matrix_solve, matrix_solve_jacobian, gen_sqr_diagdom_matrix, gen_sym_posdef_matrix
 
 
 def matrix_jacobian_gaussian_elimination_compare():
     for i in [10,50,100,200,500]:
-        matrix = gen_sqr_diagdom_matrix(i)
+        #matrix = gen_sqr_diagdom_matrix(i)
+        matrix = gen_sym_posdef_matrix(i)
         vector = [1]*i
         starttime = time.time()
         solution,count = matrix_solve_jacobian(matrix, vector, 0.0001, 10000,getIterCount=True)
