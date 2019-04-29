@@ -36,8 +36,8 @@ def matrix_inverse_power_iteration(matrix,alpha,tol,max_iter,getIterCount=False)
 
 
 #The code below is used just for testing.
-#matrix_example = [[5, 1, 2], [1, 4, 1], [2, 1, 5]]
+matrix_example = [[5, 1, 2], [1, 4, 1], [2, 1, 5]]
 #matrix_example = [[-16,9,0,0],[-12,5,0,0],[0,0,6,-2],[0,0,0,4]] #-7, -4, 4, 6
-#print(matrix_inverse_power_iteration(matrix_example,0,0.0000000000001,20000))
+print(matrix_inverse_power_iteration(matrix_example,0,0.0000000000001,20000))
 
 

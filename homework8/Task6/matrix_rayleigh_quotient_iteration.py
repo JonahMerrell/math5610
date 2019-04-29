@@ -6,8 +6,7 @@ date written:       April 27 2019
 written for:        Homework8 Task6
 course:             Math 5610
 
-purpose:            This method will find the smallest eigenvector of a matrix using the rayleigh quotient iteration.
-                    Additinally, this method can find any eigenvalue inbetween by using shifting.
+purpose:            This method will find an eigenvector of a matrix using the rayleigh quotient iteration.
 '''
 
 import sys, os
@@ -37,8 +36,8 @@ def matrix_rayleigh_quotient_iteration(matrix,tol,max_iter,getIterCount=False):
 
 
 #The code below is used just for testing.
-#matrix_example = [[-16,9,0,0],[-12,5,0,0],[0,0,6,-2],[0,0,0,4]] #-7, -4, 4, 6
+matrix_example = [[-16,9,0,0],[-12,5,0,0],[0,0,6,-2],[0,0,0,4]] #-7, -4, 4, 6
 #matrix_example = [[1/(1+i+j) for i in range(4)] for j in range(4)]
-#print(matrix_rayleigh_quotient_iteration(matrix_example,0.0000000000001,20000))
+print(matrix_rayleigh_quotient_iteration(matrix_example,0.0000000000001,20000))
 
 

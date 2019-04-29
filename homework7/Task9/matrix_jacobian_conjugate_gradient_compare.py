@@ -17,7 +17,7 @@ from _mymodules import matrix_solve_conjugate_gradient, matrix_solve_jacobian, g
 
 
 def matrix_jacobian_conjugate_gradient_compare():
-    for i in [10,50,100,200]:
+    for i in [10,50,100,200,500]:
         matrix = gen_sqr_diagdom_matrix(i)
         vector = [1]*i
         starttime = time.time()

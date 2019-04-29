@@ -36,13 +36,12 @@ In the example above, the matrix "A" in the system "Ax = b" has 3 linearly indep
       
       import sys, os
       sys.path.append(os.path.abspath('../../mylibrary'))
-      from _mymodules import matrix_mult, matrix_solve , matrix_transpose
+      from _mymodules import matrix_mult, matrix_solve , matrix_transpose, convert_vec_mat
       
       
       def matrix_solve_least_square(matrix,vector):
-          vector = [[vector[i]] for i in range(len(vector))]
-          matrix_A_At = matrix_mult(matrix_transpose(matrix),matrix)
-          vector_At_b = matrix_mult(matrix_transpose(matrix),vector)
-          solution = matrix_solve(matrix_A_At,[vector_At_b[i][0] for i in range(len(vector_At_b))])
+          matrix_At_A = matrix_mult(matrix_transpose(matrix),matrix)
+          vector_At_b = matrix_mult(matrix_transpose(matrix),convert_vec_mat(vector))
+          solution = matrix_solve(matrix_At_A, convert_vec_mat(vector_At_b))
           return solution
  

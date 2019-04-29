@@ -6,5 +6,8 @@
 100x100 Conjugate Gradient: Time: 0.026001453399658203, Iteration Count: 9
 200x200 Jacobian:           Time: 54.31710648536682, Iteration Count: 2375
 200x200 Conjugate Gradient: Time: 0.10800623893737793, Iteration Count: 9
+500x500 Jacobian:           Time: 947.2961821556091, Iteration Count: 6170
+500x500 Conjugate Gradient: Time: 0.6460371017456055, Iteration Count: 8
 
-For the system Ax = b, A is a random, diagonally-dominant matrix, and b is vector of just ones. The solution for the jacobian routine is calculated within a tolerance of 10E-4.The Conjugate Gradient method did much better than the jacobian iteration. The conjugate gradient method doesn't seem torequire more iterations as the size of the matrix got larger, and this made a huge difference for the large sized matrices such as the 500x500 matrix.
+
+For the system Ax = b, A is a random, diagonally-dominant matrix, and b is vector of just ones. The solution for the jacobian routine is calculated within a tolerance of 10E-4.The Conjugate Gradient method did much better than the jacobian iteration. The conjugate gradient method doesn't seem to require more iterations as the size of the matrix got larger, and this made a huge difference for the large sized matrices such as the 500x500 matrix.

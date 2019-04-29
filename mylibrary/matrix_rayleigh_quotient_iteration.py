@@ -6,8 +6,7 @@ date written:       April 27 2019
 written for:        Homework8 Task6
 course:             Math 5610
 
-purpose:            This method will find the smallest eigenvector of a matrix using the rayleigh quotient iteration.
-                    Additinally, this method can find any eigenvalue inbetween by using shifting.
+purpose:            This method will find an eigenvector of a matrix using the rayleigh quotient iteration.
 '''
 
 import sys, os

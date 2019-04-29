@@ -20,7 +20,7 @@ def matrix_condition_number(matrix):
 
 #The code below is used just for testing.
 #matrix_example = [[5, 1, 2], [1, 4, 1], [2, 1, 5]]
-matrix_example = [[1/(1+i+j) for i in range(10)] for j in range(10)]
-print(matrix_condition_number(matrix_example))
+#matrix_example = [[1/(1+i+j) for i in range(10)] for j in range(10)]
+#print(matrix_condition_number(matrix_example))
 
 

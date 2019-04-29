@@ -19,8 +19,8 @@ def matrix_condition_number(matrix):
     return abs(largest_eigenvalue/smallest_eigenvalue)
 
 #The code below is used just for testing.
-#matrix_example = [[5, 1, 2], [1, 4, 1], [2, 1, 5]]
+matrix_example = [[5, 1, 2], [1, 4, 1], [2, 1, 5]]
 #matrix_example = [[1/(1+i+j) for i in range(6)] for j in range(6)]
-#print(matrix_condition_number(matrix_example))
+print(matrix_condition_number(matrix_example))
 
 

@@ -132,7 +132,7 @@ For this task, we were asked to compare results on symmetric positive definite l
 | 50x50  | 516				  | 10  			   |     0.734041       |      0.008000      |
 |100x100 | 1167				  | 9  			       |     6.196354       |      0.026001      |
 |200x200 | 2375				  | 9  			       |     54.31710       |      0.108006      |
-|		 |				      |   			       |                    |                    |
+|500x500 | 6170 		      | 8 			       |     947.2961       |      0.646037      |
 
 For the system Ax = b, A is a random, diagonally-dominant matrix, and b is vector of just ones. The solution for the jacobian routine is calculated within a tolerance of 10E-4.The Conjugate Gradient method did much better than the jacobian iteration. The conjugate gradient method doesn't seem torequire more iterations as the size of the matrix got larger, and this made a huge difference for the large sized matrices such as the 500x500 matrix.
 

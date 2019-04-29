@@ -66,11 +66,9 @@ For this task, we were asked to test the code developed above to compute the con
 
 - Code:
   - [hilbert_matrix_condition_number_test.py](Task4/hilbert_matrix_condition_number_test.py)
-- Software Manual entry:
-  - [hilbert_matrix_condition_number_test](../software_manual/hilbert_matrix_condition_number_test/hilbert_matrix_condition_number_test.md)
 
 ### Task 5
-For this task, we were asked to implement the Conjugate Gradient method, and then compute approximations of the smallest and largest eigenvalues. Next subdivide the interval containing the smallest and largest eigenvalues and use the points in the subdivision to shift and locate other eigenvalues. Discuss your results. 
+For this task, we were asked to compute approximations of the smallest and largest eigenvalues. Next subdivide the interval containing the smallest and largest eigenvalues and use the points in the subdivision to shift and locate other eigenvalues. Discuss your results. 
 
 The method can potentially find all of the eigenvectors for a matrix, as long as those eignvectors are "conviniently" placed. If the eigenvectors are clustered too close together, than the method will fail to identity all of them. Also, if a shift value is chosen too close to the exact middle of 2 eigenvalues, then the method's current max iteration count may not be enough to allow convergence, even if it outherwise would. Finally, I found that when a matrix has 2 eigenvalues of equal magnitude but opposite signs, then it would often only be able to converge on of them.
 
@@ -143,5 +141,3 @@ we can see that the matrix didnt converge, until it reached its iteration max at
 
 - Code:
   - [matrix_inverse_iteration_rayleigh_quotient_compare.py](Task9/matrix_inverse_iteration_rayleigh_quotient_compare.py)
-- Software Manual entry:
-  - [matrix_inverse_iteration_rayleigh_quotient_compare](../software_manual/matrix_inverse_iteration_rayleigh_quotient_compare/matrix_inverse_iteration_rayleigh_quotient_compare.md)

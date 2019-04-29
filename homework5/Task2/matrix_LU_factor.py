@@ -35,10 +35,3 @@ def matrix_LU_factor(matrix):
 #    print(matrix_new[0][i])
 #for i in range(0,len(matrix)):
 #    print(matrix_new[1][i])
-#output:
-#[1.0, 0, 0]
-#[1.0, 1.0, 0]
-#[2.0, -0.3333333333333333, 1.0]
-#[1.0, 1.0, -1.0]
-#[0.0, -3.0, 4.0]
-#[0.0, 0.0, 4.333333333333333]

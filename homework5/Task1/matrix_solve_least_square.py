@@ -17,7 +17,7 @@ from _mymodules import matrix_mult, matrix_solve , matrix_transpose, convert_vec
 def matrix_solve_least_square(matrix,vector):
     matrix_At_A = matrix_mult(matrix_transpose(matrix),matrix)
     vector_At_b = matrix_mult(matrix_transpose(matrix),convert_vec_mat(vector))
-    solution = matrix_solve(matrix_At_A,[vector_At_b[i][0] for i in range(len(vector_At_b))])
+    solution = matrix_solve(matrix_At_A, convert_vec_mat(vector_At_b))
     return solution
 
 #The code below is used just for testing.
