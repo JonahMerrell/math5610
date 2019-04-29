@@ -70,9 +70,9 @@ For this task, we were asked to implement a method that will compute the 1-norm 
 For this task, we were asked to implement a method that will compute the ∞-norm of an arbitrary vector will real number entries.
 
 - Code:
-  - [norm_inf_vector.py](Task8/norm_inf_vector.py)
+  - [vector_infnorm.py](Task8/vector_norm_inf.py)
 - Software Manual entry:
-  - [norm_inf_vector](../software_manual/norm_inf_vector/norm_inf_vector.md)
+  - [vector_infnorm](../software_manual/vector_infnorm/vector_infnorm.md)
 
 ### Task 9
 For this task, we were asked to write a routine that will generate a symmetric matrix that has real values in all entries of the matrix.
