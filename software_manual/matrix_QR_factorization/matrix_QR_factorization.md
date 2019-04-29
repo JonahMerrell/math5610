@@ -47,17 +47,16 @@ The two matrices printed above are the Q and R matrices that satisfy QR = A (Whe
       from _mymodules import vector_dot, vector_scal_mult, vector_add, vector_2norm, matrix_mult, matrix_transpose
       
       def matrix_QR_factorization(matrix):
-      
           matrix_columns = [[matrix[i][j] for i in range(len(matrix))] for j in range(len(matrix[0]))]
-          u_vectors = []
-          for i in range(len(matrix[0])):
-              u_vectors.append(matrix_columns[i])
-              for j in range(i):
-                  u_vectors[i] = vector_add(u_vectors[i],vector_scal_mult(-1*vector_dot(matrix_columns[i],u_vectors[j]),u_vectors[j]))
-              u_vectors[i] = vector_scal_mult(1/vector_2norm(u_vectors[i]),u_vectors[i])
+          u_vectors = [[matrix[i][j] for i in range(len(matrix))] for j in range(len(matrix[0]))]
+          for j in range(len(matrix[0])):
+              for i in range(j):
+                  u_vectors[j] = vector_add(u_vectors[j],vector_scal_mult(-1 * vector_dot(matrix_columns[j], u_vectors[i]), u_vectors[i]))
+              u_vectors[j] = vector_scal_mult(1 / vector_2norm(u_vectors[j]), u_vectors[j])
       
           matrix_Q = [[u_vectors[i][j] for i in range(len(u_vectors))] for j in range(len(u_vectors[0]))]
-          matrix_R = matrix_mult(matrix_transpose(matrix_Q),matrix)
+          matrix_R = matrix_mult(matrix_transpose(matrix_Q), matrix)
       
           return [matrix_Q,matrix_R]
+
 

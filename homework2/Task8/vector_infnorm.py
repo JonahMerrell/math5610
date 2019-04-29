@@ -19,4 +19,3 @@ def vector_infnorm(vector):
 #The code below is used just for testing.
 #vector = [5,7,9,2,5]
 #print(vector_infnorm(vector))
-
