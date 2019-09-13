@@ -28,6 +28,6 @@ def gen_sqr_diagdom_matrix(width=0):
     return A
 
 #The code below is used just for testing.
-#A_ = gen_sqr_diagdom_matrix()
-#for i in range(len(A_)):
-#    print(A_[i])
+A_ = gen_sqr_diagdom_matrix(6)
+for i in range(len(A_)):
+    print(A_[i])
